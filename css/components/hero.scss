@@ -21,14 +21,12 @@ $darkGreen: #0b4d3c;
 
   &::before {
     content: url(" ../../img/decor/leaf-3.png ");
-    // content: url("https://misha-o.github.io/chocco-bar/img/decor/leaf-3.png");
     position: absolute;
     left: -5%;
     bottom: -40px;
   }
   &::after {
     content: url("../../img/decor/comp.png");
-    // content: url("https://misha-o.github.io/chocco-bar/comp.png");
     position: absolute;
     right: -8%;
     bottom: -50px;
