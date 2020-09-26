@@ -1,0 +1,45 @@
+$containerWidth: 940px;
+$baseFontSize: 18px;
+// colors
+$blue: #61c4d9;
+$darkGreen: #0b4d3c;
+
+.btn {
+  display: block;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.1;
+  padding: 23px 41px;
+  text-transform: uppercase;
+  border-radius: 100px;
+  width: 156px;
+  height: 57px;
+
+  &--theme--white {
+    color: $darkGreen;
+    background: #fff;
+
+    &:hover {
+      color: #fff;
+      background: $darkGreen;
+    }
+  }
+  &--theme-green {
+    color: #fff;
+    background-color: $darkGreen;
+
+    &:hover {
+      color: $darkGreen;
+      background: #fff;
+    }
+  }
+  &--theme--transparent {
+    color: #000000;
+    background: transparent;
+    text-transform: none;
+
+    &:hover {
+      color: #497870;
+    }
+  }
+}

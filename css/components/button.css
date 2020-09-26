@@ -1,0 +1,35 @@
+.btn {
+  display: block;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.1;
+  padding: 23px 41px;
+  text-transform: uppercase;
+  border-radius: 100px;
+  width: 156px;
+  height: 57px;
+}
+.btn--theme--white {
+  color: #0b4d3c;
+  background: #fff;
+}
+.btn--theme--white:hover {
+  color: #fff;
+  background: #0b4d3c;
+}
+.btn--theme-green {
+  color: #fff;
+  background-color: #0b4d3c;
+}
+.btn--theme-green:hover {
+  color: #0b4d3c;
+  background: #fff;
+}
+.btn--theme--transparent {
+  color: #000000;
+  background: transparent;
+  text-transform: none;
+}
+.btn--theme--transparent:hover {
+  color: #497870;
+}

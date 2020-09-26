@@ -1,0 +1,29 @@
+.section {
+  height: 100vh;
+  min-height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section__title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 35px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #292929;
+  margin-bottom: 32px;
+}
+.section__title--mb {
+  margin-bottom: 45px;
+}
+.section__title--darkgreen {
+  color: #365a49;
+  margin-bottom: 55px;
+}
+
+.section--font--color--green {
+  color: #497870;
+  font-weight: 400;
+}

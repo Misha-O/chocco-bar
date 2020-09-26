@@ -1,0 +1,51 @@
+$containerWidth: 1100px;
+$baseFontSize: 18px;
+// colors
+$blue: #61c4d9;
+$darkGreen: #0b4d3c;
+
+.hero {
+  background-color: $blue;
+  height: 100vh;
+  min-height: 650px;
+  color: #fff;
+  position: relative;
+}
+
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 24px 0 45px 0;
+
+  &::before {
+    content: url(" ../../img/decor/leaf-3.png ");
+    position: absolute;
+    left: -5%;
+    bottom: -40px;
+  }
+  &::after {
+    content: url("../../img/decor/comp.png");
+    position: absolute;
+    right: -8%;
+    bottom: -50px;
+  }
+}
+
+.hero__title--section {
+  width: 45%;
+  .hero__main--title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .hero__title--desc {
+    font-size: 21px;
+    line-height: 1.2;
+    margin-bottom: -50px; //is there another way ? PP
+    padding-right: 15%;
+  }
+}
