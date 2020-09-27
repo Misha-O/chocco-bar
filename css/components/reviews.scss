@@ -8,13 +8,13 @@ $darkGreen: #0b4d3c;
   position: relative;
 
   &::before {
-    content: url(" ../../img/decor/grey-leaf-2.png");
+    content: url("../img/decor/grey-leaf-2.png");
     position: absolute;
     left: -9%;
     bottom: -47%;
   }
   &::after {
-    content: url("../../img/decor/berries-3.png");
+    content: url("../img/decor/berries-3.png");
     position: absolute;
     left: -8%;
     bottom: -32%;
@@ -27,7 +27,7 @@ $darkGreen: #0b4d3c;
   overflow: hidden;
   position: relative;
   margin-bottom: 15px;
-  background: url("../../img/decor/fir-tree-sketch.png") top right no-repeat,
+  background: url("../img/decor/fir-tree-sketch.png") top right no-repeat,
     #f8faf9;
 
   &::before {

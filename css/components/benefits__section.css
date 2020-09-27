@@ -2,13 +2,13 @@
   position: relative;
 }
 .benefits__container::before {
-  content: url("../../img/decor/grey-leaf-1.png");
+  content: url("../img/decor/grey-leaf-1.png");
   position: absolute;
   left: -9%;
   bottom: 11%;
 }
 .benefits__container::after {
-  content: url("../../img/decor/granola.png");
+  content: url("../img/decor/granola.png");
   position: absolute;
   left: -8%;
   bottom: -45%;

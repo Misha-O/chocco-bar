@@ -1,5 +1,5 @@
 .order--section {
-  background: url("../../img/bg/bw-berries.png") center no-repeat;
+  background: url("../img/bg/bw-berries.png") center no-repeat;
 }
 
 .order__container {
@@ -7,13 +7,13 @@
   position: relative;
 }
 .order__container::before {
-  content: url("../../img/decor/berries-5.png");
+  content: url("../img/decor/berries-5.png");
   position: absolute;
   left: -6%;
   bottom: -6%;
 }
 .order__container::after {
-  content: url("../../img/decor/leaf-4.png");
+  content: url("../img/decor/leaf-4.png");
   position: absolute;
   right: -8%;
   bottom: -6%;
