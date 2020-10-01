@@ -1,3 +1,7 @@
+@function rem($px) {
+  @return $px / $baseFontSize + 0rem;
+}
+
 .menu__list {
   display: flex;
   align-items: center;

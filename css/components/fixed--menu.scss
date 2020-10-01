@@ -1,5 +1,9 @@
 $z-fixed--menu: 100;
 
+@function rem($px) {
+  @return $px / $baseFontSize + 0rem;
+}
+
 .fixed--menu {
   position: fixed;
   top: 20%;

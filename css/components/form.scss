@@ -1,3 +1,7 @@
+@function rem($px) {
+  @return $px / $baseFontSize + 0rem;
+}
+
 .order--section {
   background: url("../img/bg/bw-berries.png") center no-repeat;
 }
@@ -67,7 +71,7 @@
 
   &--textarea {
     width: 450px;
-    height: 152px;
+    height: 150px;
     resize: none;
   }
 }

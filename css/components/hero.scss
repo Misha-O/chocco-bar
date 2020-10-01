@@ -4,6 +4,10 @@ $baseFontSize: 18px;
 $blue: #61c4d9;
 $darkGreen: #0b4d3c;
 
+@function rem($px) {
+  @return $px / $baseFontSize + 0rem;
+}
+
 .hero {
   background-color: $blue;
   height: 100vh;
@@ -45,7 +49,7 @@ $darkGreen: #0b4d3c;
   .hero__title--desc {
     font-size: 21px;
     line-height: 1.2;
-    margin-bottom: -50px; //is there another way ? PP
+    margin-bottom: -50px;
     padding-right: 15%;
   }
 }

@@ -4,6 +4,10 @@ $baseFontSize: 18px;
 $blue: #61c4d9;
 $darkGreen: #0b4d3c;
 
+@function rem($px) {
+  @return $px / $baseFontSize + 0rem;
+}
+
 .reviews__container {
   position: relative;
 

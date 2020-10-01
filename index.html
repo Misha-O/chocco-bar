@@ -12,7 +12,31 @@
         <section class="hero">
           <div class="container hero__container">
             <header class="header">
-              <img class="logo" src="img/logo.png" alt="Chocco logo" />
+              <div class="logo">
+                <div class="logo__row">
+                  <svg class="logo__icon--svg">
+                    <use xlink:href="css/components/sprites.svg#vectorC"></use>
+                  </svg>
+                  <svg class="logo__icon--svg">
+                    <use xlink:href="css/components/sprites.svg#vectorH"></use>
+                  </svg>
+                  <svg class="logo__icon--svg">
+                    <use xlink:href="css/components/sprites.svg#vectorO"></use>
+                  </svg>
+                </div>
+                <div class="logo__row">
+                  <svg class="logo__icon--svg">
+                    <use xlink:href="css/components/sprites.svg#vectorC"></use>
+                  </svg>
+                  <svg class="logo__icon--svg">
+                    <use xlink:href="css/components/sprites.svg#vectorC"></use>
+                  </svg>
+                  <svg class="logo__icon--svg">
+                    <use xlink:href="css/components/sprites.svg#vectorO"></use>
+                  </svg>
+                </div>
+              </div>
+              <!-- <img class="logo" src="img/logo/logo.png" alt="Chocco logo" /> -->
               <nav class="menu">
                 <ul class="menu__list">
                   <li class="menu__item">О нас</li>
@@ -25,11 +49,11 @@
                 </ul>
               </nav>
               <a href="tel:+788009039090" class="phone-number"
-                ><span class="phone-number__icon"
-                  ><img
-                    src="img/icons/phone.svg"
-                    alt="Phone icon"
-                    class="phone-number__icon-elem" /></span
+                ><span class="phone-number__icon">
+                  <svg class="phone-number__icon-svg">
+                    <use
+                      xlink:href="css/components/sprites.svg#phone"
+                    ></use></svg></span
                 ><span class="phone-number__text">8 800 903 9090</span></a
               >
             </header>
@@ -47,19 +71,29 @@
               <ul class="features">
                 <li class="features__item feature">
                   <div class="feature__icon">
-                    <img src="img/icons/leaf.svg" alt="leaf icon" />
+                    <svg class="feature__icon--svg">
+                      <use xlink:href="css/components/sprites.svg#_x31_"></use>
+                    </svg>
                   </div>
                   <div class="feature__text">100% натуральный продукт</div>
                 </li>
                 <li class="features__item feature">
                   <div class="feature__icon">
-                    <img src="img/icons/truck.svg" alt="truck icon" />
+                    <svg class="feature__icon--svg">
+                      <use
+                        xlink:href="css/components/sprites.svg#_x31__2_"
+                      ></use>
+                    </svg>
                   </div>
                   <div class="feature__text">3-5 дней доставка по РФ</div>
                 </li>
                 <li class="features__item feature">
                   <div class="feature__icon">
-                    <img src="img/icons/measure.svg" alt="measure icon" />
+                    <svg class="feature__icon--svg">
+                      <use
+                        xlink:href="css/components/sprites.svg#_x31__3_"
+                      ></use>
+                    </svg>
                   </div>
                   <div class="feature__text">Не портит фигуру</div>
                 </li>
@@ -79,11 +113,11 @@
                 <li class="benefits__item benefit">
                   <div class="benefit__image">
                     <div class="benefit__image--wrapper">
-                      <img
-                        class="benefit__icon"
-                        src="img/icons/person.svg"
-                        alt="Happy person"
-                      />
+                      <svg class="benefit__image--svg">
+                        <use
+                          xlink:href="css/components/sprites.svg#person"
+                        ></use>
+                      </svg>
                     </div>
                   </div>
                   <div class="benefit__text">
@@ -99,11 +133,9 @@
                 <li class="benefits__item benefit">
                   <div class="benefit__image">
                     <div class="benefit__image--wrapper">
-                      <img
-                        class="benefit__icon"
-                        src="img/icons/face.svg"
-                        alt="Happy face"
-                      />
+                      <svg class="benefit__image--svg">
+                        <use xlink:href="css/components/sprites.svg#face"></use>
+                      </svg>
                     </div>
                   </div>
                   <div class="benefit__text">
@@ -119,11 +151,11 @@
                 <li class="benefits__item benefit">
                   <div class="benefit__image">
                     <div class="benefit__image--wrapper">
-                      <img
-                        class="benefit__icon"
-                        src="img/icons/biceps.svg"
-                        alt="Big biceps"
-                      />
+                      <svg class="benefit__image--svg">
+                        <use
+                          xlink:href="css/components/sprites.svg#biceps"
+                        ></use>
+                      </svg>
                     </div>
                   </div>
                   <div class="benefit__text">
@@ -274,7 +306,13 @@
                 <div class="form__controls">
                   <label class="radio radio--checkbox">
                     <input class="radio__elem" type="checkbox" />
-                    <div class="radio__visible"></div>
+                    <div class="radio__visible">
+                      <!-- <svg class="radio__visible--svg">
+                        <use
+                          xlink:href="css/components/sprites.svg#checkmark"
+                        ></use>
+                      </svg> -->
+                    </div>
                     <div class="radio__title">Не перезванивать</div>
                   </label>
                 </div>
@@ -290,6 +328,44 @@
             </form>
           </div>
         </section>
+        <section class="section map-section">
+          <div class="container">
+            <div class="map"></div>
+          </div>
+        </section>
+        <div class="container">
+          <footer class="footer">
+            <div class="footer__col">
+              <div class="footer__text">Москва, ул.Новый Арбат, д.31/12</div>
+              <a href="tel:+788009039090" class="phone-number"
+                ><span class="phone-number__icon">
+                  <svg
+                    class="phone-number__icon-svg phone-number__icon-svg--green"
+                  >
+                    <use
+                      xlink:href="css/components/sprites.svg#phone"
+                    ></use></svg></span
+                ><span class="phone-number__text">8 800 903 9090</span></a
+              >
+            </div>
+            <div class="footer__col">
+              <div class="socials">
+                <svg class="socials--svg socials--svg--vk">
+                  <use xlink:href="css/components/sprites.svg#vk"></use>
+                </svg>
+                <svg class="socials--svg socials--svg--fb">
+                  <use xlink:href="css/components/sprites.svg#fb"></use>
+                </svg>
+                <svg class="socials--svg socials--svg--inst">
+                  <use xlink:href="css/components/sprites.svg#inst"></use>
+                </svg>
+                <svg class="socials--svg socials--svg--tw">
+                  <use xlink:href="css/components/sprites.svg#tw"></use>
+                </svg>
+              </div>
+            </div>
+          </footer>
+        </div>
       </div>
     </div>
     <nav class="fixed--menu">

@@ -4,12 +4,16 @@ $baseFontSize: 18px;
 $blue: #61c4d9;
 $darkGreen: #0b4d3c;
 
+@function rem($px) {
+  @return $px / $baseFontSize + 0rem;
+}
+
 .btn {
   display: block;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.1;
-  padding: 23px 41px;
+  padding: rem(23px) rem(41px);
   text-transform: uppercase;
   border-radius: 100px;
   width: 156px;

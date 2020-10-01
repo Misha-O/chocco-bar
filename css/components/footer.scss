@@ -1,0 +1,36 @@
+@function rem($px) {
+  @return $px / $baseFontSize + 0rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  width: 100%;
+  color: #497870;
+
+  & .footer__text {
+    font-size: 21px;
+    color: #292929;
+  }
+  .phone-number__icon-svg--green {
+    fill: #497870;
+  }
+}
+.socials {
+  &--svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 14px;
+
+    &--vk,
+    &--inst,
+    &--tw {
+      fill: #b3b3b3;
+    }
+    &--fb {
+      fill: #292929;
+    }
+  }
+}

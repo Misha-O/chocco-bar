@@ -4,12 +4,26 @@ $baseFontSize: 18px;
 $blue: #61c4d9;
 $darkGreen: #0b4d3c;
 
+@function rem($px) {
+  @return $px / $baseFontSize + 0rem;
+}
+
 html,
 body {
   height: 100%;
 }
-body {
+
+html {
   font-size: $baseFontSize;
+
+  @include tablets {
+    font-size: $baseFontSize - 1px;
+  }
+  @include phones {
+    font-size: $baseFontSize - 2px;
+  }
+}
+body {
   line-height: 1.42em;
   font-family: "Alegreya Sans", Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -21,11 +35,11 @@ body {
   position: relative;
   min-height: 100%;
   width: 100%;
-  min-width: $containerWidth + 20px;
   overflow: hidden;
 }
 .container {
-  width: $containerWidth;
+  width: 95%;
+  max-width: $containerWidth;
   margin: 0 auto;
   position: relative;
 }

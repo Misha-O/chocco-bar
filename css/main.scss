@@ -1,5 +1,6 @@
 $containerWidth: 1100px;
 $baseFontSize: 18px;
+
 // colors
 $blue: #61c4d9;
 $darkGreen: #0b4d3c;
@@ -7,8 +8,16 @@ $darkGreen: #0b4d3c;
 // z indexes
 $z-fixed--menu: 100;
 
+// media
+@import url("layout/media");
+
+// breakpoints
+$tablets: 768px;
+$phones: 480px;
+
 // normalize
 @import url("layout/normalize.css");
+
 // fonts and setup
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800&display=swap");
 @import "layout/layout";
@@ -29,4 +38,6 @@ $z-fixed--menu: 100;
 @import "components/interactive--avatar";
 @import "components/form";
 @import "components/radio-btn";
+@import "components/map";
+@import "components/footer";
 @import "components/fixed--menu";
