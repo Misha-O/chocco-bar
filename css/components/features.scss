@@ -1,13 +1,9 @@
-@function rem($px) {
-  @return $px / $baseFontSize + 0rem;
-}
-
 .features {
   display: flex;
 }
 .features__item {
   justify-content: space-between;
-  margin-right: 20px;
+  margin-right: rem(20px);
 
   &:last-child {
     margin-right: 0;

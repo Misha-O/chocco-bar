@@ -13,7 +13,7 @@
           <div class="container hero__container">
             <header class="header">
               <div class="logo">
-                <div class="logo__row">
+                <!-- <div class="logo__row">
                   <svg class="logo__icon--svg">
                     <use xlink:href="css/components/sprites.svg#vectorC"></use>
                   </svg>
@@ -34,21 +34,41 @@
                   <svg class="logo__icon--svg">
                     <use xlink:href="css/components/sprites.svg#vectorO"></use>
                   </svg>
-                </div>
+                </div> -->
+                <img
+                  class="logo__img"
+                  src="img/logo/logo.png"
+                  alt="Chocco logo"
+                />
               </div>
-              <!-- <img class="logo" src="img/logo/logo.png" alt="Chocco logo" /> -->
               <nav class="menu">
                 <ul class="menu__list">
-                  <li class="menu__item">О нас</li>
-                  <li class="menu__item">Батончики</li>
-                  <li class="menu__item">Команда</li>
-                  <li class="menu__item">Меню</li>
-                  <li class="menu__item">Отзывы</li>
-                  <li class="menu__item">Как мы работаем</li>
-                  <li class="menu__item">Контакты</li>
+                  <li class="menu__item">
+                    <a href="" class="menu__link">О нас</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="" class="menu__link">Батончики</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="" class="menu__link">Команда</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="" class="menu__link">Меню</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="" class="menu__link">Отзывы</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="" class="menu__link">Как мы работаем</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="" class="menu__link">Контакты</a>
+                  </li>
                 </ul>
               </nav>
-              <a href="tel:+788009039090" class="phone-number"
+              <a
+                href="tel:+788009039090"
+                class="phone-number header__phone-number"
                 ><span class="phone-number__icon">
                   <svg class="phone-number__icon-svg">
                     <use
@@ -56,6 +76,11 @@
                     ></use></svg></span
                 ><span class="phone-number__text">8 800 903 9090</span></a
               >
+              <a href="" class="hamburger">
+                <span class="hamburger__plank"></span>
+                <span class="hamburger__plank"></span>
+                <span class="hamburger__plank"></span>
+              </a>
             </header>
             <div class="hero__title--section">
               <h1 class="hero__main--title">
@@ -65,8 +90,8 @@
                 Наши батончики идеально подходят для тех, кто следит за своим
                 здоровьем
               </div>
+              <a href="#" class="btn btn--theme--white">Заказать</a>
             </div>
-            <a href="#" class="btn btn--theme--white">Заказать</a>
             <div class="hero__icons--section">
               <ul class="features">
                 <li class="features__item feature">
@@ -329,43 +354,63 @@
           </div>
         </section>
         <section class="section map-section">
-          <div class="container">
-            <div class="map"></div>
-          </div>
-        </section>
-        <div class="container">
+          <div id="map"></div>
           <footer class="footer">
-            <div class="footer__col">
-              <div class="footer__text">Москва, ул.Новый Арбат, д.31/12</div>
-              <a href="tel:+788009039090" class="phone-number"
-                ><span class="phone-number__icon">
-                  <svg
-                    class="phone-number__icon-svg phone-number__icon-svg--green"
-                  >
-                    <use
-                      xlink:href="css/components/sprites.svg#phone"
-                    ></use></svg></span
-                ><span class="phone-number__text">8 800 903 9090</span></a
-              >
-            </div>
-            <div class="footer__col">
-              <div class="socials">
-                <svg class="socials--svg socials--svg--vk">
-                  <use xlink:href="css/components/sprites.svg#vk"></use>
-                </svg>
-                <svg class="socials--svg socials--svg--fb">
-                  <use xlink:href="css/components/sprites.svg#fb"></use>
-                </svg>
-                <svg class="socials--svg socials--svg--inst">
-                  <use xlink:href="css/components/sprites.svg#inst"></use>
-                </svg>
-                <svg class="socials--svg socials--svg--tw">
-                  <use xlink:href="css/components/sprites.svg#tw"></use>
-                </svg>
-              </div>
+            <div class="container footer__container">
+              <address class="contacts">
+                <div class="contacts__place">
+                  Москва, ул.Новый Арбат, д.31/12
+                </div>
+                <a href="tel:+788009039090" class="phone-number"
+                  ><span class="phone-number__icon">
+                    <svg
+                      class="phone-number__icon-svg phone-number__icon-svg--green"
+                    >
+                      <use
+                        xlink:href="css/components/sprites.svg#phone"
+                      ></use></svg></span
+                  ><span class="phone-number__text phone-number__text--green"
+                    >8 800 903 9090</span
+                  ></a
+                >
+              </address>
+              <ul class="socials">
+                <li class="socials__item">
+                  <a href="" class="socials__link"
+                    ><svg class="socials--svg socials--svg--vk">
+                      <use
+                        xlink:href="css/components/sprites.svg#vk"
+                      ></use></svg
+                  ></a>
+                </li>
+                <li class="socials__item">
+                  <a href="" class="socials__link"
+                    ><svg class="socials--svg socials--svg--fb">
+                      <use
+                        xlink:href="css/components/sprites.svg#fb"
+                      ></use></svg
+                  ></a>
+                </li>
+                <li class="socials__item">
+                  <a href="" class="socials__link"
+                    ><svg class="socials--svg socials--svg--inst">
+                      <use
+                        xlink:href="css/components/sprites.svg#inst"
+                      ></use></svg
+                  ></a>
+                </li>
+                <li class="socials__item">
+                  <a href="" class="socials__link"
+                    ><svg class="socials--svg socials--svg--tw">
+                      <use
+                        xlink:href="css/components/sprites.svg#tw"
+                      ></use></svg
+                  ></a>
+                </li>
+              </ul>
             </div>
           </footer>
-        </div>
+        </section>
       </div>
     </div>
     <nav class="fixed--menu">

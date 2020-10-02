@@ -1,19 +1,24 @@
-@function rem($px) {
-  @return $px / $baseFontSize + 0rem;
-}
-
 .benefits__container {
   position: relative;
+
   &::before {
     content: url("../img/decor/grey-leaf-1.png");
     position: absolute;
     left: -9%;
     bottom: 11%;
   }
+
   &::after {
     content: url("../img/decor/granola.png");
     position: absolute;
     left: -8%;
     bottom: -45%;
+  }
+
+  &::before,
+  &::after {
+    @include phones {
+      display: none;
+    }
   }
 }

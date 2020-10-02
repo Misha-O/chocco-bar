@@ -1,23 +1,17 @@
-$containerWidth: 940px;
-$baseFontSize: 18px;
-// colors
-$blue: #61c4d9;
-$darkGreen: #0b4d3c;
-
-@function rem($px) {
-  @return $px / $baseFontSize + 0rem;
-}
-
 .btn {
   display: block;
-  font-size: 16px;
+  font-size: rem(16px);
   font-weight: 800;
   line-height: 1.1;
   padding: rem(23px) rem(41px);
   text-transform: uppercase;
-  border-radius: 100px;
-  width: 156px;
-  height: 57px;
+  border-radius: rem(100px);
+  width: rem(156px);
+  height: rem(57px);
+
+  @include tablets {
+    margin: 0 auto;
+  }
 
   &--theme--white {
     color: $darkGreen;

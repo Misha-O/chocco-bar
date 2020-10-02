@@ -1,15 +1,20 @@
-@function rem($px) {
-  @return $px / $baseFontSize + 0rem;
-}
-
 .benefits {
   display: flex;
+
+  @include phones {
+    flex-direction: column;
+  }
 }
 
 .benefits__item {
   flex: 1;
   padding: 0 3%;
   position: relative;
+
+  @include phones {
+    padding: 0;
+    margin-bottom: rem(20px);
+  }
 
   &:first-child {
     padding-left: 0;
@@ -26,8 +31,12 @@
   &::before {
     content: url("/img/decor/separator.png");
     position: absolute;
-    top: 50px;
+    top: rem(50px);
     right: 0;
     transform: translateX(50%);
+
+    @include phones {
+      display: none;
+    }
   }
 }

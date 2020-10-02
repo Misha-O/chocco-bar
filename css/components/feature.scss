@@ -1,18 +1,14 @@
-@function rem($px) {
-  @return $px / $baseFontSize + 0rem;
-}
-
 .feature {
   display: flex;
-  width: 170px;
+  width: rem(170px);
 }
 .feature__icon {
   & .feature__icon--svg {
     fill: #c6f7ff;
     flex: 1;
-    width: 40px;
-    height: 40px;
-    margin-right: 8px;
+    width: rem(40px);
+    height: rem(40px);
+    margin-right: rem(8px);
   }
 
   & img {
@@ -23,6 +19,6 @@
 }
 .feature__text {
   flex: 1;
-  font-size: 16px;
-  max-width: 85px;
+  font-size: rem(16px);
+  max-width: rem(85px);
 }

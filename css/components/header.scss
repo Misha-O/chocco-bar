@@ -1,39 +1,48 @@
-@function rem($px) {
-  @return $px / $baseFontSize + 0rem;
-}
-
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
+}
+
+.phone-number.header__phone-number {
+  @include tablets {
+    display: none;
+  }
 }
 
 .phone-number {
   display: flex;
   align-items: center;
-  font-size: 22px;
+  font-size: rem(22px);
+
+  & .phone-number__icon {
+    flex-shrink: 0;
+  }
+
+  & .phone-number__text {
+    white-space: nowrap;
+  }
   .phone-number__icon-svg {
     fill: #fff;
-    font-size: 22px;
-    height: 14px;
-    width: 14px;
-    margin-right: 6px;
+    font-size: rem(22px);
+    height: rem(14px);
+    width: rem(14px);
+    margin-right: rem(6px);
   }
 }
 .logo {
   display: flex;
   flex-direction: column;
-  width: 4.61rem;
-  height: 2.11rem;
+  width: rem(53px);
+  height: rem(38px);
 
-  & .logo__row {
-    display: flex;
+  // & .logo__row {
+  //   display: flex;
+  //   width: 100%;
+  //   height: 100%;
+  // }
+  & img {
     width: 100%;
     height: 100%;
-
-    // & .logo__icon--svg {
-    //   width: 100%;
-    //   height: 100%;
-    // }
   }
 }

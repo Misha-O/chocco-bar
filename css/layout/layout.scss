@@ -1,30 +1,21 @@
-$containerWidth: 1100px;
-$baseFontSize: 18px;
-// colors
-$blue: #61c4d9;
-$darkGreen: #0b4d3c;
-
-@function rem($px) {
-  @return $px / $baseFontSize + 0rem;
-}
-
 html,
 body {
   height: 100%;
-}
-
-html {
-  font-size: $baseFontSize;
 
   @include tablets {
     font-size: $baseFontSize - 1px;
   }
+
   @include phones {
     font-size: $baseFontSize - 2px;
   }
 }
+
+html {
+  font-size: $baseFontSize;
+}
 body {
-  line-height: 1.42em;
+  line-height: 1.42;
   font-family: "Alegreya Sans", Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

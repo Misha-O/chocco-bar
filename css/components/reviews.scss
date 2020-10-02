@@ -1,15 +1,9 @@
-$containerWidth: 1100px;
-$baseFontSize: 18px;
-// colors
-$blue: #61c4d9;
-$darkGreen: #0b4d3c;
-
-@function rem($px) {
-  @return $px / $baseFontSize + 0rem;
-}
-
 .reviews__container {
   position: relative;
+
+  // @include tablets {
+  //   min-height: rem(976px);
+  // }
 
   &::before {
     content: url("../img/decor/grey-leaf-2.png");
@@ -27,32 +21,43 @@ $darkGreen: #0b4d3c;
 
 .reviews__display {
   background: #f8faf9;
-  padding: 42px 42px;
+  padding: rem(42px) rem(42px);
   overflow: hidden;
   position: relative;
-  margin-bottom: 15px;
+  margin-bottom: rem(15px);
   background: url("../img/decor/fir-tree-sketch.png") top right no-repeat,
     #f8faf9;
 
   &::before {
     content: "";
     display: block;
-    width: 82px;
-    height: 82px;
+    width: rem(82px);
+    height: rem(82px);
     border-radius: 50%;
     background: #fff;
     position: absolute;
-    top: -50px;
+    top: rem(-50px);
     left: 50%;
     transform: translate(-50%);
   }
 }
 .reviews__display--inner {
   display: flex;
+
+  @include tablets {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
 }
 .reviews__avatar {
-  width: 253px;
-  height: 260px;
+  width: rem(253px);
+  height: rem(260px);
+
+  @include tablets {
+    width: rem(130px);
+    height: rem(130px);
+  }
   .reviews__display--avatar {
     object-fit: cover;
     width: 100%;
@@ -61,18 +66,18 @@ $darkGreen: #0b4d3c;
 }
 .reviews__content {
   flex: 1;
-  margin-left: 22px;
+  margin-left: rem(22px);
 }
 .reviews__title {
-  font-size: 27px;
+  font-size: rem(27px);
   font-weight: 700;
-  margin-bottom: 12px;
+  margin-bottom: rem(12px);
   color: #292929;
-  margin-top: 23px;
-  margin-bottom: 25px;
+  margin-top: rem(23px);
+  margin-bottom: rem(25px);
 }
 .reviews__text {
-  margin-bottom: 10px;
+  margin-bottom: rem(10px);
   width: 75%;
 }
 .reviews__author {
@@ -85,7 +90,7 @@ $darkGreen: #0b4d3c;
   justify-content: center;
 }
 .reviews__switcher--item {
-  margin-right: 6px;
+  margin-right: rem(6px);
 
   &:last-child {
     margin-right: 0;

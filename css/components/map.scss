@@ -1,8 +1,5 @@
-@function rem($px) {
-  @return $px / $baseFontSize + 0rem;
-}
-
-.map-section {
-  min-height: 652px;
+#map {
+  min-height: rem(652px);
   background: url("../img/bg/map.png") center no-repeat;
+  background-size: contain;
 }

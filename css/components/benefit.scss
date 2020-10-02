@@ -1,25 +1,31 @@
-@function rem($px) {
-  @return $px / $baseFontSize + 0rem;
-}
-
 .benefit {
   text-align: center;
+
+  @include phones {
+    display: flex;
+    text-align: left;
+  }
 }
 .benefit__image {
-  margin-bottom: 20px;
+  margin-bottom: rem(20px);
+
+  @include phones {
+    margin-bottom: 0;
+    margin-right: rem(12px);
+  }
 }
 .benefit__image--wrapper {
   display: inline-block;
-  width: 128px;
-  height: 128px;
+  width: rem(128px);
+  height: rem(128px);
   position: relative;
   background-color: #f2f5f4;
   border-radius: 50%;
   overflow: hidden;
 
   .benefit__image--svg {
-    width: 65px;
-    height: 65px;
+    width: rem(65px);
+    height: rem(65px);
     position: absolute;
     left: 50%;
     top: 50%;
@@ -27,11 +33,15 @@
   }
 }
 .benefit__title {
-  font-size: 27px;
+  font-size: rem(27px);
   font-weight: 700;
   color: #000;
-  margin-bottom: 18px;
+  margin-bottom: rem(18px);
 }
 .benefit__desc {
   text-align: center;
+
+  @include phones {
+    text-align: left;
+  }
 }

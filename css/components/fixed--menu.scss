@@ -1,9 +1,5 @@
 $z-fixed--menu: 100;
 
-@function rem($px) {
-  @return $px / $baseFontSize + 0rem;
-}
-
 .fixed--menu {
   position: fixed;
   top: 20%;
@@ -11,7 +7,7 @@ $z-fixed--menu: 100;
   z-index: $z-fixed--menu;
 }
 .fixed--menu__item {
-  margin-bottom: 5px;
+  margin-bottom: rem(5px);
 
   &--active {
     .fixed--menu__link {
@@ -20,18 +16,18 @@ $z-fixed--menu: 100;
   }
 }
 .fixed--menu__link {
-  width: 18px;
-  height: 18px;
+  width: rem(18px);
+  height: rem(18px);
   border-radius: 50%;
-  border: 1px solid transparent;
+  border: rem(1px) solid transparent;
   display: block;
   position: relative;
 
   &::before {
     content: "";
     display: block;
-    width: 9px;
-    height: 9px;
+    width: rem(9px);
+    height: rem(9px);
     border-radius: 50%;
     background-color: #fff;
     position: absolute;

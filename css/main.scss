@@ -8,12 +8,12 @@ $darkGreen: #0b4d3c;
 // z indexes
 $z-fixed--menu: 100;
 
-// media
-@import url("layout/media");
-
 // breakpoints
 $tablets: 768px;
 $phones: 480px;
+
+// media
+@import "layout/media";
 
 // normalize
 @import url("layout/normalize.css");
@@ -25,6 +25,7 @@ $phones: 480px;
 // components
 @import "components/hero";
 @import "components/header";
+@import "components/hamburger";
 @import "components/features";
 @import "components/feature";
 @import "components/button";
@@ -40,4 +41,6 @@ $phones: 480px;
 @import "components/radio-btn";
 @import "components/map";
 @import "components/footer";
+@import "components/socials";
+@import "components/contacts";
 @import "components/fixed--menu";
