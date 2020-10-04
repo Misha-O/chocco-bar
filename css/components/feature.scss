@@ -1,14 +1,14 @@
 .feature {
   display: flex;
-  width: rem(170px);
 }
 .feature__icon {
+  margin-right: rem(14px);
+
   & .feature__icon--svg {
     fill: #c6f7ff;
     flex: 1;
     width: rem(40px);
     height: rem(40px);
-    margin-right: rem(8px);
   }
 
   & img {

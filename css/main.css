@@ -213,19 +213,19 @@ img {
     margin-right: 0; }
 
 .feature {
-  display: flex;
-  width: 9.4444444444rem; }
+  display: flex; }
 
-.feature__icon .feature__icon--svg {
-  fill: #c6f7ff;
-  flex: 1;
-  width: 2.2222222222rem;
-  height: 2.2222222222rem;
-  margin-right: 0.4444444444rem; }
-.feature__icon img {
-  width: 100%;
-  height: 100%;
-  border: #fff; }
+.feature__icon {
+  margin-right: 0.7777777778rem; }
+  .feature__icon .feature__icon--svg {
+    fill: #c6f7ff;
+    flex: 1;
+    width: 2.2222222222rem;
+    height: 2.2222222222rem; }
+  .feature__icon img {
+    width: 100%;
+    height: 100%;
+    border: #fff; }
 
 .feature__text {
   flex: 1;
@@ -412,34 +412,34 @@ img {
     .benefit__desc {
       text-align: left; } }
 
-.benefits__container {
+.benefits__section {
   position: relative; }
-  .benefits__container::before {
+  .benefits__section::before {
     content: url("../img/decor/grey-leaf-1.png");
     position: absolute;
-    left: -9%;
-    bottom: 11%; }
-  .benefits__container::after {
+    left: 0%;
+    bottom: 30%; }
+  .benefits__section::after {
     content: url("../img/decor/granola.png");
     position: absolute;
-    left: -8%;
-    bottom: -45%; }
+    left: -1%;
+    bottom: -4%; }
   @media screen and (max-width: 480px) {
-    .benefits__container::before, .benefits__container::after {
+    .benefits__section::before, .benefits__section::after {
       display: none; } }
 
-.reviews__container {
+.reviews__section {
   position: relative; }
-  .reviews__container::before {
+  .reviews__section::before {
     content: url("../img/decor/grey-leaf-2.png");
     position: absolute;
-    left: -9%;
-    bottom: -47%; }
-  .reviews__container::after {
+    left: 0%;
+    bottom: -17%; }
+  .reviews__section::after {
     content: url("../img/decor/berries-3.png");
     position: absolute;
-    left: -8%;
-    bottom: -32%; }
+    left: 0%;
+    bottom: -9%; }
 
 .reviews__display {
   background: #f8faf9;
@@ -534,22 +534,20 @@ img {
   object-fit: cover; }
 
 .order--section {
-  background: url("../img/bg/bw-berries.png") center no-repeat; }
-
-.order__container {
+  background: url("../img/bg/bw-berries.png") center no-repeat;
   position: relative; }
-  .order__container::before {
+  .order--section::before {
     content: url("../img/decor/berries-5.png");
     position: absolute;
-    left: -6%;
-    bottom: -6%; }
-  .order__container::after {
+    left: 2%;
+    bottom: 12%; }
+  .order--section::after {
     content: url("../img/decor/leaf-4.png");
     position: absolute;
-    right: -8%;
-    bottom: -6%; }
+    right: 1%;
+    bottom: 10%; }
   @media screen and (max-width: 480px) {
-    .order__container::before, .order__container::after {
+    .order--section::before, .order--section::after {
       display: none; } }
 
 .form {
@@ -665,7 +663,7 @@ img {
     transform: translate(-50%, -50%);
     display: none; }
 
-#map {
+.map-section {
   min-height: 36.2222222222rem;
   background: url("../img/bg/map.png") center no-repeat;
   background-size: contain; }

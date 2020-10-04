@@ -1,21 +1,18 @@
 .order--section {
   background: url("../img/bg/bw-berries.png") center no-repeat;
-}
-
-.order__container {
   position: relative;
 
   &::before {
     content: url("../img/decor/berries-5.png");
     position: absolute;
-    left: -6%;
-    bottom: -6%;
+    left: 2%;
+    bottom: 12%;
   }
   &::after {
     content: url("../img/decor/leaf-4.png");
     position: absolute;
-    right: -8%;
-    bottom: -6%;
+    right: 1%;
+    bottom: 10%;
   }
 
   @include phones {
@@ -25,6 +22,30 @@
     }
   }
 }
+
+// .order__container {
+//   position: relative;
+
+//   &::before {
+//     content: url("../img/decor/berries-5.png");
+//     position: absolute;
+//     left: -6%;
+//     bottom: -6%;
+//   }
+//   &::after {
+//     content: url("../img/decor/leaf-4.png");
+//     position: absolute;
+//     right: -8%;
+//     bottom: -6%;
+//   }
+
+//   @include phones {
+//     &::before,
+//     &::after {
+//       display: none;
+//     }
+//   }
+// }
 .form {
   display: flex;
   flex: 1;
