@@ -6,12 +6,14 @@
     position: absolute;
     left: 0%;
     bottom: -17%;
+    z-index: 10;
   }
   &::after {
     content: url("../img/decor/berries-3.png");
     position: absolute;
     left: 0%;
     bottom: -9%;
+    z-index: 10;
   }
 }
 
@@ -75,6 +77,10 @@
 .reviews__text {
   margin-bottom: rem(10px);
   width: 75%;
+
+  @include tablets {
+    width: 100%;
+  }
 }
 .reviews__author {
   font-size: $baseFontSize;

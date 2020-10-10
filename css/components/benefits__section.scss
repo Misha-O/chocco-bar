@@ -12,7 +12,12 @@
     content: url("../img/decor/granola.png");
     position: absolute;
     left: -1%;
-    bottom: -4%;
+    bottom: -14%;
+    z-index: 10;
+
+    // @include tablets {
+    //   display: none;
+    // }
   }
 
   &::before,
@@ -22,28 +27,3 @@
     }
   }
 }
-
-// .benefits__container {
-//   position: relative;
-
-//   &::before {
-//     content: url("../img/decor/grey-leaf-1.png");
-//     position: absolute;
-//     left: -9%;
-//     bottom: 11%;
-//   }
-
-//   &::after {
-//     content: url("../img/decor/granola.png");
-//     position: absolute;
-//     left: -8%;
-//     bottom: -45%;
-//   }
-
-//   &::before,
-//   &::after {
-//     @include phones {
-//       display: none;
-//     }
-//   }
-// }
