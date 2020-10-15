@@ -6,44 +6,36 @@
   @include tablets {
     display: none;
   }
-
-  &:hover .ingredients__dropdown {
-    visibility: visible;
-    animation: 1s fadeIn;
-    animation-fill-mode: forwards;
+  @include phones {
+    display: none;
   }
 }
 .ingredients__block {
   width: rem(91px);
   width: rem(91px);
   cursor: pointer;
+  position: relative;
 
-  // &:hover + .ingredients__dropdown {
-  //   visibility: visible;
-  // }
-}
-
-.ingredients__dropdown {
-  visibility: hidden;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    visibility: visible;
+  &:hover .ingredients__dropdown {
     opacity: 1;
   }
 }
 
+.ingredients__dropdown {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  position: absolute;
+  left: 100%;
+  top: 0;
+}
+
 .ingredients__list {
-  height: rem(300px);
+  min-height: rem(280px);
   width: rem(275px);
   font-size: rem(16px);
   font-weight: 500;
   color: #000;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(213, 213, 213, 0.8);
   box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.06);
   backdrop-filter: blur(40px);
   border-radius: 4px;
@@ -51,7 +43,6 @@
   flex-direction: column;
   justify-content: space-evenly;
   padding: 5% 5%;
-  height: 100%;
 
   & .ingredients__item {
     display: inline-flex;
