@@ -675,8 +675,7 @@ img {
       font-size: 1.1666666667rem;
       font-weight: 700;
       color: #292929;
-      margin-bottom: 0.4444444444rem;
-      cursor: auto; }
+      margin-bottom: 0.4444444444rem; }
     .team__list .team__item .team__slide--link {
       margin-left: 0.3888888889rem; }
       .team__list .team__item .team__slide--link .team__slide--img {
@@ -698,15 +697,15 @@ img {
   .team__list .team__content {
     position: absolute;
     top: 100%;
-    text-align: center; }
+    text-align: center;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s; }
     .team__list .team__content .team__desc {
-      height: 0;
-      overflow: hidden;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: center;
-      transition: height 0.3s; }
+      align-items: center; }
       .team__list .team__content .team__desc .team__position {
         font-size: 1rem;
         font-weight: 400;

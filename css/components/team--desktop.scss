@@ -30,7 +30,6 @@
       font-weight: 700;
       color: #292929;
       margin-bottom: rem(8px);
-      cursor: auto;
     }
 
     & .team__slide--link {
@@ -64,15 +63,15 @@
     position: absolute;
     top: 100%;
     text-align: center;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s;
 
     & .team__desc {
-      height: 0;
-      overflow: hidden;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      transition: height 0.3s;
 
       & .team__position {
         font-size: 1rem;
