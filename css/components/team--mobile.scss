@@ -1,3 +1,9 @@
+.team__section {
+  @include tablets {
+    min-height: rem(1000px);
+  }
+}
+
 .team__list {
   &--mobile {
     display: none;
@@ -15,6 +21,7 @@
         justify-content: center;
         align-items: center;
         flex: 1;
+        margin-bottom: rem(25px);
 
         & .team__title {
           font-size: rem(21px);
@@ -23,6 +30,7 @@
         }
 
         & .team__content {
+          position: static;
           display: flex;
           flex-direction: column;
           justify-content: center;

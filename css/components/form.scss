@@ -113,10 +113,15 @@
     }
   }
 }
+
 .form__btns {
   display: flex;
 
   @include tablets {
     justify-content: center;
   }
+}
+// js error style
+.input__error {
+  border-color: hotpink;
 }

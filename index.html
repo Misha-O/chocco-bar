@@ -3,6 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"
+    />
+    <link rel="stylesheet" type="text/css" href="jquery.fancybox.min.css" />
     <link rel="stylesheet" href="css/main.css" />
     <title>Chocco Bar</title>
   </head>
@@ -178,7 +183,7 @@
         <section class="section products__section">
           <div class="slider">
             <div class="container slider__container">
-              <ul class="slider__list" id="sliderRoot">
+              <ul class="slider__list">
                 <li class="slider__item">
                   <div class="slider__arrow">
                     <svg class="slider__image--svg slider__image--svg--left">
@@ -859,25 +864,16 @@
               Закажите доставку
             </h2>
             <form class="form" action="">
+              <input type="hidden" name="to" value="randomemail@gmail.com" />
               <div class="form__col">
                 <div class="form__row">
                   <label class="form__block">
                     <div class="form__title">Имя</div>
-                    <input
-                      class="form__input"
-                      type="text"
-                      name="name"
-                      required
-                    />
+                    <input class="form__input" type="text" name="name" />
                   </label>
                   <label class="form__block">
                     <div class="form__title">Телефон</div>
-                    <input
-                      class="form__input"
-                      type="text"
-                      name="phone"
-                      required
-                    />
+                    <input class="form__input" type="text" name="phone" />
                   </label>
                 </div>
                 <div class="form__row">
@@ -914,7 +910,6 @@
                       cols="30"
                       rows="10"
                       name="comment"
-                      required
                     ></textarea>
                   </label>
                 </div>
@@ -1011,6 +1006,21 @@
         </footer>
       </div>
     </div>
+    <div class="modal" id="modal">
+      <div class="modal__container">
+        <div class="modal__content">Сообщение отправлено !</div>
+        <div class="modal__btn--container">
+          <a
+            class="btn app-close-modal btn--theme-green js-submit-btn"
+            data-fancybox
+            data-src="#hidden-content"
+            href="javascript:;"
+          >
+            Закрыть
+          </a>
+        </div>
+      </div>
+    </div>
     <!-- <div class="fullscreen__menu active">
       <a href="#" class="fullscreen__menu--close">x</a>
       <nav class="menu menu--vertical">
@@ -1071,8 +1081,11 @@
       </ul>
     </nav>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
     <script src="./js/slideShow.js"></script>
-    <script src="./js/swipe.js"></script>
-    <script src="./js/acco.js"></script>
+    <script src="./js/carousel.js"></script>
+    <script src="./js/accoVert.js"></script>
+    <script src="./js/formModal.js"></script>
   </body>
 </html>
