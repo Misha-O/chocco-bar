@@ -1,0 +1,29 @@
+.video__section {
+  min-width: rem(1100px);
+  background: #f8faf9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &::before {
+    content: url("../img/decor/blackberry.png");
+    position: absolute;
+    bottom: 20%;
+    right: 0%;
+    z-index: 100;
+  }
+  &::after {
+    content: url("../img/decor/video-leaf-2.png");
+    position: absolute;
+    bottom: 21%;
+    left: 15%;
+    z-index: 100;
+  }
+
+  & .video__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

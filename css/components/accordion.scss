@@ -1,0 +1,123 @@
+.accordion__section {
+  background: url(../../img/bg/accordion--menu_1.png) center center / cover
+    no-repeat;
+  min-height: rem(800px);
+  filter: brightness(80%);
+  position: relative;
+
+  &::before {
+    content: url("../img/decor/menu_berry-1.png");
+    position: absolute;
+    top: -8%;
+    left: 3%;
+  }
+  &::after {
+    content: url("../img/decor/berries-4.png");
+    position: absolute;
+    bottom: -15%;
+    right: 5%;
+  }
+}
+.accordion__container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  & .accordion__title--block {
+    height: 100%;
+    width: 30%;
+
+    & .accordion__title--header {
+      margin-top: rem(100px);
+      margin-bottom: rem(80px);
+      font-size: rem(48px);
+      font-weight: 700;
+      color: #fff;
+      text-transform: uppercase;
+    }
+  }
+}
+.accordion__tabs {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: #fff;
+
+  & .variety {
+    height: 100%;
+  }
+
+  & .variety__list {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    & .variety__item {
+      position: relative;
+      height: 100%;
+      display: flex;
+      cursor: pointer;
+
+      &--one {
+        background: url(../../img/bg/accordion--menu_2.png) center center /
+          cover no-repeat;
+      }
+      &--two {
+        background: url(../../img/bg/accordion--menu_3.png) center / cover
+          no-repeat;
+      }
+      &--three {
+        background: url(../../img/bg/accordion--menu_4.png) center center /
+          cover no-repeat;
+      }
+    }
+
+    & .variety__item--title {
+      background: rgba(0, 0, 0, 0.2);
+      font-size: rem(48px);
+      font-weight: 700;
+      text-transform: uppercase;
+      position: relative;
+      min-width: rem(90px);
+      height: 100%;
+
+      & span {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transform: rotateZ(-90deg);
+        transform-origin: 0 0;
+        white-space: nowrap;
+        line-height: rem(90px);
+      }
+    }
+
+    & .variety__item--wrap {
+      width: 0;
+      overflow: hidden;
+      transition: width 0.5s;
+
+      & .variety__item--descr {
+        height: 100%;
+        padding: 10% 10%;
+        font-size: rem(16px);
+        font-weight: 400;
+        background: rgba(51, 53, 55, 0.9);
+        width: rem(520px);
+        transition: all 0.5s ease-in-out;
+
+        @include tablets {
+          width: rem(460px);
+        }
+        @include phones {
+          width: rem(390px);
+        }
+      }
+    }
+  }
+}

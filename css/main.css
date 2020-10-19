@@ -569,36 +569,6 @@ img {
         text-transform: uppercase;
         margin-right: 2.5rem; }
 
-.slider__arrow .slider__image--svg {
-  width: 0.7777777778rem;
-  height: 1.5rem;
-  position: absolute;
-  top: 50%;
-  cursor: pointer; }
-  @media screen and (max-width: 768px) {
-    .slider__arrow .slider__image--svg {
-      top: 30%; } }
-  @media screen and (max-width: 480px) {
-    .slider__arrow .slider__image--svg {
-      top: 18%; } }
-  .slider__arrow .slider__image--svg--left {
-    transform: rotate(180deg);
-    left: 4%; }
-    @media screen and (max-width: 768px) {
-      .slider__arrow .slider__image--svg--left {
-        left: 20%; } }
-    @media screen and (max-width: 480px) {
-      .slider__arrow .slider__image--svg--left {
-        left: 20%; } }
-  .slider__arrow .slider__image--svg--right {
-    right: 8%; }
-    @media screen and (max-width: 768px) {
-      .slider__arrow .slider__image--svg--right {
-        right: 15%; } }
-    @media screen and (max-width: 480px) {
-      .slider__arrow .slider__image--svg--right {
-        right: 12%; } }
-
 .bx-wrapper {
   border: 0;
   background: transparent;
@@ -654,6 +624,9 @@ img {
       fill: #000000; }
     .ingredients__list .ingredients__item .ingredients__item--value {
       margin-left: auto; }
+
+.team__container {
+  min-width: 50rem; }
 
 .team__title {
   margin-bottom: 2.7777777778rem; }
@@ -764,6 +737,99 @@ img {
     .team__list--mobile {
       display: flex; } }
 
+.accordion__section {
+  background: url(../../img/bg/accordion--menu_1.png) center center/cover no-repeat;
+  min-height: 44.4444444444rem;
+  filter: brightness(80%);
+  position: relative; }
+  .accordion__section::before {
+    content: url("../img/decor/menu_berry-1.png");
+    position: absolute;
+    top: -8%;
+    left: 3%; }
+  .accordion__section::after {
+    content: url("../img/decor/berries-4.png");
+    position: absolute;
+    bottom: -15%;
+    right: 5%; }
+
+.accordion__container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start; }
+  .accordion__container .accordion__title--block {
+    height: 100%;
+    width: 30%; }
+    .accordion__container .accordion__title--block .accordion__title--header {
+      margin-top: 5.5555555556rem;
+      margin-bottom: 4.4444444444rem;
+      font-size: 2.6666666667rem;
+      font-weight: 700;
+      color: #fff;
+      text-transform: uppercase; }
+
+.accordion__tabs {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: #fff; }
+  .accordion__tabs .variety {
+    height: 100%; }
+  .accordion__tabs .variety__list {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end; }
+    .accordion__tabs .variety__list .variety__item {
+      position: relative;
+      height: 100%;
+      display: flex;
+      cursor: pointer; }
+      .accordion__tabs .variety__list .variety__item--one {
+        background: url(../../img/bg/accordion--menu_2.png) center center/cover no-repeat; }
+      .accordion__tabs .variety__list .variety__item--two {
+        background: url(../../img/bg/accordion--menu_3.png) center/cover no-repeat; }
+      .accordion__tabs .variety__list .variety__item--three {
+        background: url(../../img/bg/accordion--menu_4.png) center center/cover no-repeat; }
+    .accordion__tabs .variety__list .variety__item--title {
+      background: rgba(0, 0, 0, 0.2);
+      font-size: 2.6666666667rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      position: relative;
+      min-width: 5rem;
+      height: 100%; }
+      .accordion__tabs .variety__list .variety__item--title span {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transform: rotateZ(-90deg);
+        transform-origin: 0 0;
+        white-space: nowrap;
+        line-height: 5rem; }
+    .accordion__tabs .variety__list .variety__item--wrap {
+      width: 0;
+      overflow: hidden;
+      transition: width 0.5s; }
+      .accordion__tabs .variety__list .variety__item--wrap .variety__item--descr {
+        height: 100%;
+        padding: 10% 10%;
+        font-size: 0.8888888889rem;
+        font-weight: 400;
+        background: rgba(51, 53, 55, 0.9);
+        width: 28.8888888889rem;
+        transition: all 0.5s ease-in-out; }
+        @media screen and (max-width: 768px) {
+          .accordion__tabs .variety__list .variety__item--wrap .variety__item--descr {
+            width: 25.5555555556rem; } }
+        @media screen and (max-width: 480px) {
+          .accordion__tabs .variety__list .variety__item--wrap .variety__item--descr {
+            width: 21.6666666667rem; } }
+
 .reviews__section {
   position: relative; }
   .reviews__section::before {
@@ -867,6 +933,30 @@ img {
   margin-right: 0.3333333333rem; }
   .reviews__switcher--item:last-child {
     margin-right: 0; }
+
+.video__section {
+  min-width: 61.1111111111rem;
+  background: #f8faf9;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .video__section::before {
+    content: url("../img/decor/blackberry.png");
+    position: absolute;
+    bottom: 20%;
+    right: 0%;
+    z-index: 100; }
+  .video__section::after {
+    content: url("../img/decor/video-leaf-2.png");
+    position: absolute;
+    bottom: 21%;
+    left: 15%;
+    z-index: 100; }
+  .video__section .video__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
 
 .interactive--avatar {
   width: 4.1666666667rem;

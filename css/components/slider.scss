@@ -8,13 +8,6 @@
   color: #666666;
   position: relative;
 
-  @include tablets {
-    // min-height: rem(820px);
-  }
-  @include phones {
-    // min-height: rem(820px);
-  }
-
   &::before {
     content: url("../img/decor/grey-leaf-slider.png");
     position: absolute;
@@ -181,45 +174,45 @@
   }
 }
 
-.slider__arrow {
-  & .slider__image--svg {
-    width: rem(14px);
-    height: rem(27px);
-    position: absolute;
-    top: 50%;
-    cursor: pointer;
+// .slider__arrow {
+//   & .slider__image--svg {
+//     width: rem(14px);
+//     height: rem(27px);
+//     position: absolute;
+//     top: 50%;
+//     cursor: pointer;
 
-    @include tablets {
-      top: 30%;
-    }
-    @include phones {
-      top: 18%;
-    }
+//     @include tablets {
+//       top: 30%;
+//     }
+//     @include phones {
+//       top: 18%;
+//     }
 
-    &--left {
-      transform: rotate(180deg);
-      left: 4%;
+//     &--left {
+//       transform: rotate(180deg);
+//       left: 4%;
 
-      @include tablets {
-        left: 20%;
-      }
-      @include phones {
-        left: 20%;
-      }
-    }
+//       @include tablets {
+//         left: 20%;
+//       }
+//       @include phones {
+//         left: 20%;
+//       }
+//     }
 
-    &--right {
-      right: 8%;
+//     &--right {
+//       right: 8%;
 
-      @include tablets {
-        right: 15%;
-      }
-      @include phones {
-        right: 12%;
-      }
-    }
-  }
-}
+//       @include tablets {
+//         right: 15%;
+//       }
+//       @include phones {
+//         right: 12%;
+//       }
+//     }
+//   }
+// }
 
 // *carousel css styles re-write
 .bx-wrapper {

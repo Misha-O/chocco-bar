@@ -1,3 +1,22 @@
+const openItem = (someItem) => {
+  const container = someItem.closest(".team__item");
+  const contentBlock = container.find(".team__content");
+  const textBlock = contentBlock.find(".team__block");
+  const reqHeight = textBlock.height();
+  container.addClass("active");
+
+  contentBlock.height(reqHeight);
+};
+
+const closeAllItems = (container) => {
+  const items = container.find(".team__content");
+
+  const itemContainer = container.find(".team__item");
+
+  itemContainer.removeClass("active");
+  items.height(0);
+};
+
 $(".team__title").on("click", function (e) {
   e.preventDefault();
   $this = $(e.currentTarget);
@@ -13,25 +32,6 @@ $(".team__title").on("click", function (e) {
 
     openItem($this);
   }
-
-  function openItem(someItem) {
-    const container = someItem.closest(".team__item");
-    const contentBlock = container.find(".team__content");
-    const textBlock = contentBlock.find(".team__block");
-    const reqHeight = textBlock.height();
-    container.addClass("active");
-
-    contentBlock.height(reqHeight);
-  }
-
-  function closeAllItems(container) {
-    const items = container.find(".team__content");
-
-    const itemContainer = container.find(".team__item");
-
-    itemContainer.removeClass("active");
-    items.height(0);
-  }
 });
 
 // !logic
@@ -44,4 +44,4 @@ $(".team__title").on("click", function (e) {
 // todo 7. find content blocks -> run height with 0 method
 // todo 8. you need vrb to find relative way to store whole element where it will search for further items inside
 // todo 9. run close before open
-// todo 10. to see what is open add class on item(in open func)//if yes -> close and remove class // if no open and add class
+// todo 10. to see what is open add class on item(in open func)//if yes -> close and remove class // if no, open and add class
