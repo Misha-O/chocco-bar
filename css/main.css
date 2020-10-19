@@ -738,7 +738,7 @@ img {
       display: flex; } }
 
 .accordion__section {
-  background: url(../../img/bg/accordion--menu_1.png) center center/cover no-repeat;
+  background: url(../img/bg/accordion--menu_1.png) center center/cover no-repeat;
   min-height: 44.4444444444rem;
   filter: brightness(80%);
   position: relative; }
@@ -790,11 +790,11 @@ img {
       display: flex;
       cursor: pointer; }
       .accordion__tabs .variety__list .variety__item--one {
-        background: url(../../img/bg/accordion--menu_2.png) center center/cover no-repeat; }
+        background: url(../img/bg/accordion--menu_2.png) center center/cover no-repeat; }
       .accordion__tabs .variety__list .variety__item--two {
-        background: url(../../img/bg/accordion--menu_3.png) center/cover no-repeat; }
+        background: url(../img/bg/accordion--menu_3.png) center/cover no-repeat; }
       .accordion__tabs .variety__list .variety__item--three {
-        background: url(../../img/bg/accordion--menu_4.png) center center/cover no-repeat; }
+        background: url(../img/bg/accordion--menu_4.png) center center/cover no-repeat; }
     .accordion__tabs .variety__list .variety__item--title {
       background: rgba(0, 0, 0, 0.2);
       font-size: 2.6666666667rem;

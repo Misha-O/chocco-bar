@@ -1,5 +1,5 @@
 .accordion__section {
-  background: url(../../img/bg/accordion--menu_1.png) center center / cover
+  background: url(../img/bg/accordion--menu_1.png) center center / cover
     no-repeat;
   min-height: rem(800px);
   filter: brightness(80%);
@@ -64,16 +64,16 @@
       cursor: pointer;
 
       &--one {
-        background: url(../../img/bg/accordion--menu_2.png) center center /
-          cover no-repeat;
+        background: url(../img/bg/accordion--menu_2.png) center center / cover
+          no-repeat;
       }
       &--two {
-        background: url(../../img/bg/accordion--menu_3.png) center / cover
+        background: url(../img/bg/accordion--menu_3.png) center / cover
           no-repeat;
       }
       &--three {
-        background: url(../../img/bg/accordion--menu_4.png) center center /
-          cover no-repeat;
+        background: url(../img/bg/accordion--menu_4.png) center center / cover
+          no-repeat;
       }
     }
 
