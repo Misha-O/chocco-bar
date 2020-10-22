@@ -1,0 +1,29 @@
+.benefits__section {
+  position: relative;
+
+  &::before {
+    content: url("../img/decor/grey-leaf-1.png");
+    position: absolute;
+    left: 0%;
+    bottom: 30%;
+  }
+
+  &::after {
+    content: url("../img/decor/granola.png");
+    position: absolute;
+    left: -1%;
+    bottom: -14%;
+    z-index: 10;
+
+    // @include tablets {
+    //   display: none;
+    // }
+  }
+
+  &::before,
+  &::after {
+    @include phones {
+      display: none;
+    }
+  }
+}

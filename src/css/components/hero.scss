@@ -1,0 +1,97 @@
+.hero {
+  background: url("../img/decor/fern-leaf.png") right 26% bottom no-repeat;
+  background-color: $blue;
+  height: 100vh;
+  min-height: rem(650px);
+  color: #fff;
+  position: relative;
+
+  @include tablets {
+    min-height: rem(1000px);
+  }
+
+  @include phones {
+    min-height: rem(800px);
+  }
+
+  &::before,
+  &::after {
+    @include tablets {
+      display: none;
+      background: none;
+    }
+  }
+
+  &::before {
+    content: url("../img/decor/leaf-3.png ");
+    position: absolute;
+    left: 3%;
+    bottom: -6%;
+  }
+}
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: rem(24px) 0 rem(45px) 0;
+  background: url("../img/decor/comp.png ") right center no-repeat;
+
+  @include tablets {
+    background: none;
+  }
+}
+
+.hero__title--section {
+  width: 45%;
+
+  @include tablets {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    &::before {
+      content: "";
+      width: rem(354px);
+      height: rem(368px);
+      background: url("../img/decor/comp.png ") center center / contain
+        no-repeat;
+    }
+  }
+
+  .hero__main--title {
+    font-size: rem(48px);
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-bottom: rem(10px);
+
+    @include phones {
+      font-size: rem(40px);
+      line-height: 1;
+    }
+  }
+  .hero__title--desc {
+    font-size: rem(21px);
+    line-height: 1.2;
+    margin-bottom: rem(20px);
+    padding-right: 15%;
+
+    @include tablets {
+      padding: 0 23%;
+    }
+
+    @include phones {
+      padding: 0 12%;
+    }
+  }
+}
+.hero__icons--section {
+  @include tablets {
+    display: none;
+  }
+}
