@@ -5,7 +5,7 @@
 //   return gulp.src("app/tmp/**/*", { read: false }).pipe(rm());
 // });
 // gulp.task("copyScss", function () {
-//   return src("/src/css/*.scss").pipe(dest("/src/scss"));
+//   return src("/app/css/*.scss").pipe(dest("/app/scss/"));
 // });
 // gulp.task("message", function () {
 //   return console.log("It is finally running");

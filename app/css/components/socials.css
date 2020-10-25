@@ -1,0 +1,10 @@
+.socials {
+  display: flex; }
+  .socials--svg {
+    width: rem(20px);
+    height: rem(20px);
+    margin-right: rem(14px); }
+    .socials--svg--vk, .socials--svg--fb, .socials--svg--inst, .socials--svg--tw {
+      fill: #b3b3b3; }
+      .socials--svg--vk:hover, .socials--svg--fb:hover, .socials--svg--inst:hover, .socials--svg--tw:hover {
+        fill: #292929; }

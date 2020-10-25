@@ -1,0 +1,8 @@
+.features {
+  display: flex; }
+
+.features__item {
+  justify-content: space-between;
+  margin-right: rem(20px); }
+  .features__item:last-child {
+    margin-right: 0; }

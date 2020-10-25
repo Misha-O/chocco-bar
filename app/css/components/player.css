@@ -1,0 +1,143 @@
+.player__section {
+  background: #f8faf9; }
+  .player__section::before {
+    content: url("../img/decor/blackberry.png");
+    position: absolute;
+    bottom: 20%;
+    right: 0%;
+    z-index: 100; }
+  .player__section::after {
+    content: url("../img/decor/player-leaf-2.png");
+    position: absolute;
+    bottom: 21%;
+    left: 15%;
+    z-index: 100; }
+  .player__section .player__title {
+    padding-top: rem(80px); }
+
+.player__section--container {
+  width: rem(705px);
+  height: rem(410px);
+  margin: rem(35px) auto;
+  margin-bottom: rem(170px); }
+  .player__section--container::before {
+    content: url("../img/decor/video-leaf-1.png");
+    position: absolute;
+    top: 27%;
+    right: 7%;
+    z-index: 100; }
+  .player__section--container::after {
+    content: url("../img/decor/video-leaf-2.png");
+    position: absolute;
+    bottom: 10%;
+    left: 7%;
+    z-index: 100; }
+
+.player {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative; }
+  .player .player__splash {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: url("../img/bg/video-poster.png") center center/cover no-repeat;
+    cursor: pointer; }
+  .player.active .player__splash {
+    display: none; }
+  .player.paused .player__start {
+    width: 14px;
+    height: 22px;
+    border: none; }
+    .player.paused .player__start::before, .player.paused .player__start::after {
+      content: "";
+      position: absolute;
+      width: 5px;
+      height: 20px;
+      top: 20%;
+      bottom: 0;
+      background: #626262; }
+    .player.paused .player__start::before {
+      left: 3%; }
+    .player.paused .player__start::after {
+      right: 95%; }
+  .player.paused .player__start {
+    background: none; }
+
+.player__controls {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 35px;
+  background: #333333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px; }
+  .player__controls .player__start {
+    width: 12px;
+    height: 15px;
+    background: url("../img/icons/play--grey.png") center center/cover no-repeat; }
+    .player__controls .player__start:focus {
+      border-color: transparent;
+      outline: none; }
+  .player__controls .player__playback {
+    width: 445px;
+    height: 16px;
+    position: relative; }
+    .player__controls .player__playback::before {
+      content: "";
+      height: 4px;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      background: #626262;
+      display: block; }
+    .player__controls .player__playback .player__playback--btn {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translate(-50%, -50%);
+      background: #626262;
+      border-radius: 50px;
+      border: none;
+      width: 12px;
+      height: 12px;
+      padding: 0; }
+  .player__controls .player__mute {
+    width: 12px;
+    height: 15px;
+    position: relative;
+    background: url("../img/icons/video-volume.png") center center/cover no-repeat; }
+    .player__controls .player__mute:focus {
+      border-color: transparent;
+      outline: none; }
+  .player__controls .player__volume--playback {
+    width: 60px;
+    height: 16px;
+    position: relative; }
+    .player__controls .player__volume--playback::before {
+      content: "";
+      height: 4px;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      background: #626262;
+      display: block; }
+    .player__controls .player__volume--playback .player__volume--playback--btn {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translate(-50%, -50%);
+      background: #626262;
+      border-radius: 50px;
+      border: none;
+      width: 12px;
+      height: 12px;
+      padding: 0; }
