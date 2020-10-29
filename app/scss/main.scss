@@ -13,9 +13,40 @@ $tablets: 768px;
 $phones: 480px;
 
 // media
-@import "./layout/*.scss";
+@import "./layout/media.scss";
+@import "./layout/pageLayout.scss";
 
 // fonts and setup
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
 
-@import "./components/*.scss";
+@import "./components/accordion.scss";
+@import "./components/benefits__section.scss";
+@import "./components/feature.scss";
+@import "./components/footer.scss";
+@import "./components/header.scss";
+@import "./components/ingredients.scss";
+@import "./components/menu--vertical.scss";
+@import "./components/player.scss";
+@import "./components/section.scss";
+@import "./components/team--desktop.scss";
+@import "./components/benefit.scss";
+@import "./components/button.scss";
+@import "./components/features.scss";
+@import "./components/form.scss";
+@import "./components/headline.scss";
+@import "./components/interactive--avatar.scss";
+@import "./components/menu.scss";
+@import "./components/radio-btn.scss";
+@import "./components/slider.scss";
+@import "./components/team--mobile.scss";
+@import "./components/benefits.scss";
+@import "./components/contacts.scss";
+@import "./components/fixed--menu.scss";
+@import "./components/hamburger.scss";
+@import "./components/hero.scss";
+@import "./components/map.scss";
+@import "./components/modal.scss";
+@import "./components/reviews.scss";
+@import "./components/socials.scss";
+
