@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'phones'.
-        on line 4 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\benefit.scss, in `phones'
-        from line 4 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\benefit.scss
+        on line 4 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\benefit.scss, in `phones'
+        from line 4 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\benefit.scss
 
 1: .benefit {
 2:   text-align: center;
@@ -14,8 +14,8 @@ Error: Undefined mixin 'phones'.
 9: .benefit__image {
 
 Backtrace:
-C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\benefit.scss:4:in `phones'
-C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\benefit.scss:4
+C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\benefit.scss:4:in `phones'
+C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\benefit.scss:4
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -63,4 +63,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'phones'.\A         on line 4 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\benefit.scss, in `phones'\A         from line 4 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\benefit.scss\A \A 1: .benefit {\A 2:   text-align: center;\A 3: \A 4:   @include phones {\A 5:     display: flex;\A 6:     text-align: left;\A 7:   }\A 8: }\A 9: .benefit__image {"; }
+  content: "Error: Undefined mixin 'phones'.\A         on line 4 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\benefit.scss, in `phones'\A         from line 4 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\benefit.scss\A \A 1: .benefit {\A 2:   text-align: center;\A 3: \A 4:   @include phones {\A 5:     display: flex;\A 6:     text-align: left;\A 7:   }\A 8: }\A 9: .benefit__image {"; }

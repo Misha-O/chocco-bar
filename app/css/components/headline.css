@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'tablets'.
-        on line 12 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\headline.scss, in `tablets'
-        from line 12 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\headline.scss
+        on line 12 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\headline.scss, in `tablets'
+        from line 12 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\headline.scss
 
 7: .headeline__subtitle {
 8:   padding: 0 28%;
@@ -16,8 +16,8 @@ Error: Undefined mixin 'tablets'.
 17:   @include phones {
 
 Backtrace:
-C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\headline.scss:12:in `tablets'
-C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\headline.scss:12
+C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\headline.scss:12:in `tablets'
+C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\headline.scss:12
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -65,4 +65,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'tablets'.\A         on line 12 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\headline.scss, in `tablets'\A         from line 12 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\headline.scss\A \A 7: .headeline__subtitle {\A 8:   padding: 0 28%;\A 9:   text-align: center;\A 10:   margin-bottom: rem(50px);\A 11: \A 12:   @include tablets {\A 13:     padding: 0 20%;\A 14:     margin-bottom: rem(28px);\A 15:   }\A 16: \A 17:   @include phones {"; }
+  content: "Error: Undefined mixin 'tablets'.\A         on line 12 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\headline.scss, in `tablets'\A         from line 12 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\headline.scss\A \A 7: .headeline__subtitle {\A 8:   padding: 0 28%;\A 9:   text-align: center;\A 10:   margin-bottom: rem(50px);\A 11: \A 12:   @include tablets {\A 13:     padding: 0 20%;\A 14:     margin-bottom: rem(28px);\A 15:   }\A 16: \A 17:   @include phones {"; }

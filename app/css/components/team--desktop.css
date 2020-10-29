@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'tablets'.
-        on line 14 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\team--desktop.scss, in `tablets'
-        from line 14 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\team--desktop.scss
+        on line 14 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\team--desktop.scss, in `tablets'
+        from line 14 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\team--desktop.scss
 
 9:   display: flex;
 10:   justify-content: space-evenly;
@@ -16,8 +16,8 @@ Error: Undefined mixin 'tablets'.
 19:     }
 
 Backtrace:
-C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\team--desktop.scss:14:in `tablets'
-C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\team--desktop.scss:14
+C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\team--desktop.scss:14:in `tablets'
+C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\team--desktop.scss:14
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -76,4 +76,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'tablets'.\A         on line 14 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\team--desktop.scss, in `tablets'\A         from line 14 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\team--desktop.scss\A \A 9:   display: flex;\A 10:   justify-content: space-evenly;\A 11:   align-items: center;\A 12: \A 13:   &--desktop {\A 14:     @include tablets {\A 15:       display: none;\A 16:     }\A 17:     @include phones {\A 18:       display: none;\A 19:     }"; }
+  content: "Error: Undefined mixin 'tablets'.\A         on line 14 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\team--desktop.scss, in `tablets'\A         from line 14 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\team--desktop.scss\A \A 9:   display: flex;\A 10:   justify-content: space-evenly;\A 11:   align-items: center;\A 12: \A 13:   &--desktop {\A 14:     @include tablets {\A 15:       display: none;\A 16:     }\A 17:     @include phones {\A 18:       display: none;\A 19:     }"; }

@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'phones'.
-        on line 8 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\radio-btn.scss, in `phones'
-        from line 8 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\radio-btn.scss
+        on line 8 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\radio-btn.scss, in `phones'
+        from line 8 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\radio-btn.scss
 
 3:   cursor: pointer;
 4:   user-select: none;
@@ -16,8 +16,8 @@ Error: Undefined mixin 'phones'.
 13:     .radio__visible {
 
 Backtrace:
-C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\radio-btn.scss:8:in `phones'
-C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\radio-btn.scss:8
+C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\radio-btn.scss:8:in `phones'
+C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\radio-btn.scss:8
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -65,4 +65,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'phones'.\A         on line 8 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\radio-btn.scss, in `phones'\A         from line 8 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\radio-btn.scss\A \A 3:   cursor: pointer;\A 4:   user-select: none;\A 5:   margin-bottom: rem(21px);\A 6:   margin-right: rem(23px);\A 7: \A 8:   @include phones {\A 9:     margin-bottom: rem(10px);\A 10:   }\A 11: \A 12:   &--checkbox {\A 13:     .radio__visible {"; }
+  content: "Error: Undefined mixin 'phones'.\A         on line 8 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\radio-btn.scss, in `phones'\A         from line 8 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\radio-btn.scss\A \A 3:   cursor: pointer;\A 4:   user-select: none;\A 5:   margin-bottom: rem(21px);\A 6:   margin-right: rem(23px);\A 7: \A 8:   @include phones {\A 9:     margin-bottom: rem(10px);\A 10:   }\A 11: \A 12:   &--checkbox {\A 13:     .radio__visible {"; }

@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'phones'.
-        on line 4 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\benefits.scss, in `phones'
-        from line 4 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\benefits.scss
+        on line 4 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\benefits.scss, in `phones'
+        from line 4 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\benefits.scss
 
 1: .benefits {
 2:   display: flex;
@@ -14,8 +14,8 @@ Error: Undefined mixin 'phones'.
 9: .benefits__item {
 
 Backtrace:
-C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\benefits.scss:4:in `phones'
-C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\benefits.scss:4
+C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\benefits.scss:4:in `phones'
+C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\benefits.scss:4
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -63,4 +63,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'phones'.\A         on line 4 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\benefits.scss, in `phones'\A         from line 4 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\benefits.scss\A \A 1: .benefits {\A 2:   display: flex;\A 3: \A 4:   @include phones {\A 5:     flex-direction: column;\A 6:   }\A 7: }\A 8: \A 9: .benefits__item {"; }
+  content: "Error: Undefined mixin 'phones'.\A         on line 4 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\benefits.scss, in `phones'\A         from line 4 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\benefits.scss\A \A 1: .benefits {\A 2:   display: flex;\A 3: \A 4:   @include phones {\A 5:     flex-direction: column;\A 6:   }\A 7: }\A 8: \A 9: .benefits__item {"; }

@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'phones'.
-        on line 18 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\form.scss, in `phones'
-        from line 18 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\form.scss
+        on line 18 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\form.scss, in `phones'
+        from line 18 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\form.scss
 
 13:     position: absolute;
 14:     right: 1%;
@@ -16,8 +16,8 @@ Error: Undefined mixin 'phones'.
 23:   }
 
 Backtrace:
-C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\form.scss:18:in `phones'
-C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\form.scss:18
+C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\form.scss:18:in `phones'
+C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\form.scss:18
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -65,4 +65,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'phones'.\A         on line 18 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\form.scss, in `phones'\A         from line 18 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\form.scss\A \A 13:     position: absolute;\A 14:     right: 1%;\A 15:     bottom: 10%;\A 16:   }\A 17: \A 18:   @include phones {\A 19:     &::before,\A 20:     &::after {\A 21:       display: none;\A 22:     }\A 23:   }"; }
+  content: "Error: Undefined mixin 'phones'.\A         on line 18 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\form.scss, in `phones'\A         from line 18 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\form.scss\A \A 13:     position: absolute;\A 14:     right: 1%;\A 15:     bottom: 10%;\A 16:   }\A 17: \A 18:   @include phones {\A 19:     &::before,\A 20:     &::after {\A 21:       display: none;\A 22:     }\A 23:   }"; }

@@ -1,18 +1,18 @@
 /*
 Error: Undefined variable: "$blue".
-        on line 3 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\hero.scss
+        on line 3 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\hero.scss
 
 1: .hero {
 2:   background: url("../img/decor/fern-leaf.png") right 26% bottom no-repeat;
 3:   background-color: $blue;
-4:   height: 100vh;
-5:   min-height: rem(650px);
-6:   color: #fff;
-7:   position: relative;
-8: 
+4:   // height: 100vh;
+5:   height: 100%;
+6:   min-height: rem(650px);
+7:   color: #fff;
+8:   position: relative;
 
 Backtrace:
-C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\hero.scss:3
+C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\hero.scss:3
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -58,4 +58,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$blue\".\A         on line 3 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\hero.scss\A \A 1: .hero {\A 2:   background: url(\"../img/decor/fern-leaf.png\") right 26% bottom no-repeat;\A 3:   background-color: $blue;\A 4:   height: 100vh;\A 5:   min-height: rem(650px);\A 6:   color: #fff;\A 7:   position: relative;\A 8: "; }
+  content: "Error: Undefined variable: \"$blue\".\A         on line 3 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\hero.scss\A \A 1: .hero {\A 2:   background: url(\"../img/decor/fern-leaf.png\") right 26% bottom no-repeat;\A 3:   background-color: $blue;\A 4:   // height: 100vh;\A 5:   height: 100%;\A 6:   min-height: rem(650px);\A 7:   color: #fff;\A 8:   position: relative;"; }

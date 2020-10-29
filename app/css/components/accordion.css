@@ -1,28 +1,39 @@
 /*
 Error: Undefined mixin 'tablets'.
-        on line 115 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\accordion.scss, in `tablets'
-        from line 115 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\accordion.scss
+        on line 114 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\accordion.scss, in `tablets'
+        from line 114 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\accordion.scss
 
-110:         font-weight: 400;
-111:         background: rgba(51, 53, 55, 0.9);
-112:         width: rem(520px);
-113:         transition: all 0.5s ease-in-out;
-114: 
-115:         @include tablets {
-116:           width: rem(460px);
-117:         }
-118:         @include phones {
-119:           width: rem(390px);
-120:         }
+109:           font-weight: 400;
+110:           background: rgba(51, 53, 55, 0.9);
+111:           width: rem(500px);
+112:           transition: all 0.5s ease-in-out;
+113: 
+114:           @include tablets {
+115:             width: rem(460px);
+116:           }
+117:           @include phones {
+118:             width: rem(200px);
+119:           }
 
 Backtrace:
-C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\accordion.scss:115:in `tablets'
-C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\accordion.scss:115
+C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\accordion.scss:114:in `tablets'
+C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\accordion.scss:114
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
@@ -98,4 +109,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'tablets'.\A         on line 115 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\accordion.scss, in `tablets'\A         from line 115 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\accordion.scss\A \A 110:         font-weight: 400;\A 111:         background: rgba(51, 53, 55, 0.9);\A 112:         width: rem(520px);\A 113:         transition: all 0.5s ease-in-out;\A 114: \A 115:         @include tablets {\A 116:           width: rem(460px);\A 117:         }\A 118:         @include phones {\A 119:           width: rem(390px);\A 120:         }"; }
+  content: "Error: Undefined mixin 'tablets'.\A         on line 114 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\accordion.scss, in `tablets'\A         from line 114 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\accordion.scss\A \A 109:           font-weight: 400;\A 110:           background: rgba(51, 53, 55, 0.9);\A 111:           width: rem(500px);\A 112:           transition: all 0.5s ease-in-out;\A 113: \A 114:           @include tablets {\A 115:             width: rem(460px);\A 116:           }\A 117:           @include phones {\A 118:             width: rem(200px);\A 119:           }"; }

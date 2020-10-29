@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'phones'.
-        on line 7 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\contacts.scss, in `phones'
-        from line 7 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\contacts.scss
+        on line 7 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\contacts.scss, in `phones'
+        from line 7 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\contacts.scss
 
 2:   font-size: rem(21px);
 3:   color: #292929;
@@ -16,8 +16,8 @@ Error: Undefined mixin 'phones'.
 12:   }
 
 Backtrace:
-C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\contacts.scss:7:in `phones'
-C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\contacts.scss:7
+C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\contacts.scss:7:in `phones'
+C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\contacts.scss:7
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -65,4 +65,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'phones'.\A         on line 7 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\contacts.scss, in `phones'\A         from line 7 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\contacts.scss\A \A 2:   font-size: rem(21px);\A 3:   color: #292929;\A 4:   font-style: normal;\A 5:   font-weight: 400;\A 6: \A 7:   @include phones {\A 8:     margin-bottom: 10px;\A 9:     display: flex;\A 10:     flex-direction: column;\A 11:     align-items: center;\A 12:   }"; }
+  content: "Error: Undefined mixin 'phones'.\A         on line 7 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\contacts.scss, in `phones'\A         from line 7 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\contacts.scss\A \A 2:   font-size: rem(21px);\A 3:   color: #292929;\A 4:   font-style: normal;\A 5:   font-weight: 400;\A 6: \A 7:   @include phones {\A 8:     margin-bottom: 10px;\A 9:     display: flex;\A 10:     flex-direction: column;\A 11:     align-items: center;\A 12:   }"; }

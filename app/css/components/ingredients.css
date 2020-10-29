@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'tablets'.
-        on line 6 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\ingredients.scss, in `tablets'
-        from line 6 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\ingredients.scss
+        on line 6 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\ingredients.scss, in `tablets'
+        from line 6 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\ingredients.scss
 
 1: .ingredients {
 2:   display: flex;
@@ -16,8 +16,8 @@ Error: Undefined mixin 'tablets'.
 11:   }
 
 Backtrace:
-C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\ingredients.scss:6:in `tablets'
-C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\ingredients.scss:6
+C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\ingredients.scss:6:in `tablets'
+C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\ingredients.scss:6
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -65,4 +65,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'tablets'.\A         on line 6 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\ingredients.scss, in `tablets'\A         from line 6 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\ingredients.scss\A \A 1: .ingredients {\A 2:   display: flex;\A 3:   justify-content: flex-start;\A 4:   align-items: flex-start;\A 5: \A 6:   @include tablets {\A 7:     display: none;\A 8:   }\A 9:   @include phones {\A 10:     display: none;\A 11:   }"; }
+  content: "Error: Undefined mixin 'tablets'.\A         on line 6 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\ingredients.scss, in `tablets'\A         from line 6 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\ingredients.scss\A \A 1: .ingredients {\A 2:   display: flex;\A 3:   justify-content: flex-start;\A 4:   align-items: flex-start;\A 5: \A 6:   @include tablets {\A 7:     display: none;\A 8:   }\A 9:   @include phones {\A 10:     display: none;\A 11:   }"; }

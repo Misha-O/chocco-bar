@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'tablets'.
-        on line 2 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\team--mobile.scss, in `tablets'
-        from line 2 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\team--mobile.scss
+        on line 2 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\team--mobile.scss, in `tablets'
+        from line 2 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\team--mobile.scss
 
 1: .team__section {
 2:   @include tablets {
@@ -12,8 +12,8 @@ Error: Undefined mixin 'tablets'.
 7: .team__list {
 
 Backtrace:
-C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\team--mobile.scss:2:in `tablets'
-C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\team--mobile.scss:2
+C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\team--mobile.scss:2:in `tablets'
+C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\team--mobile.scss:2
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -61,4 +61,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'tablets'.\A         on line 2 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\team--mobile.scss, in `tablets'\A         from line 2 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\team--mobile.scss\A \A 1: .team__section {\A 2:   @include tablets {\A 3:     min-height: rem(1000px);\A 4:   }\A 5: }\A 6: \A 7: .team__list {"; }
+  content: "Error: Undefined mixin 'tablets'.\A         on line 2 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\team--mobile.scss, in `tablets'\A         from line 2 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\team--mobile.scss\A \A 1: .team__section {\A 2:   @include tablets {\A 3:     min-height: rem(1000px);\A 4:   }\A 5: }\A 6: \A 7: .team__list {"; }

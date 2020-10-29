@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'tablets'.
-        on line 29 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\slider.scss, in `tablets'
-        from line 29 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\slider.scss
+        on line 29 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\slider.scss, in `tablets'
+        from line 29 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\slider.scss
 
 24: .slider__container {
 25:   width: rem(1100px);
@@ -16,8 +16,8 @@ Error: Undefined mixin 'tablets'.
 34:   }
 
 Backtrace:
-C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\slider.scss:29:in `tablets'
-C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\slider.scss:29
+C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\slider.scss:29:in `tablets'
+C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\slider.scss:29
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -65,4 +65,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'tablets'.\A         on line 29 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\slider.scss, in `tablets'\A         from line 29 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\slider.scss\A \A 24: .slider__container {\A 25:   width: rem(1100px);\A 26:   height: 100%;\A 27:   overflow: hidden;\A 28: \A 29:   @include tablets {\A 30:     width: rem(767px);\A 31:   }\A 32:   @include phones {\A 33:     width: rem(480px);\A 34:   }"; }
+  content: "Error: Undefined mixin 'tablets'.\A         on line 29 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\slider.scss, in `tablets'\A         from line 29 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\slider.scss\A \A 24: .slider__container {\A 25:   width: rem(1100px);\A 26:   height: 100%;\A 27:   overflow: hidden;\A 28: \A 29:   @include tablets {\A 30:     width: rem(767px);\A 31:   }\A 32:   @include phones {\A 33:     width: rem(480px);\A 34:   }"; }

@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'tablets'.
-        on line 9 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\fixed--menu.scss, in `tablets'
-        from line 9 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\fixed--menu.scss
+        on line 14 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\fixed--menu.scss, in `tablets'
+        from line 14 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\fixed--menu.scss
 
-4:   position: fixed;
-5:   top: 20%;
-6:   right: 3%;
-7:   z-index: $z-fixed--menu;
-8: 
-9:   @include tablets {
-10:     display: none;
-11:   }
-12:   @include phones {
-13:     display: none;
-14:   }
+9: 
+10:   &--dark {
+11:     color: #000;
+12:   }
+13: 
+14:   @include tablets {
+15:     display: none;
+16:   }
+17:   @include phones {
+18:     display: none;
+19:   }
 
 Backtrace:
-C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\fixed--menu.scss:9:in `tablets'
-C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\fixed--menu.scss:9
+C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\fixed--menu.scss:14:in `tablets'
+C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\fixed--menu.scss:14
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -65,4 +65,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'tablets'.\A         on line 9 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\fixed--menu.scss, in `tablets'\A         from line 9 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\fixed--menu.scss\A \A 4:   position: fixed;\A 5:   top: 20%;\A 6:   right: 3%;\A 7:   z-index: $z-fixed--menu;\A 8: \A 9:   @include tablets {\A 10:     display: none;\A 11:   }\A 12:   @include phones {\A 13:     display: none;\A 14:   }"; }
+  content: "Error: Undefined mixin 'tablets'.\A         on line 14 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\fixed--menu.scss, in `tablets'\A         from line 14 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\fixed--menu.scss\A \A 9: \A 10:   &--dark {\A 11:     color: #000;\A 12:   }\A 13: \A 14:   @include tablets {\A 15:     display: none;\A 16:   }\A 17:   @include phones {\A 18:     display: none;\A 19:   }"; }

@@ -5,13 +5,13 @@
     position: absolute;
     bottom: 20%;
     right: 0%;
-    z-index: 100; }
+    z-index: 10; }
   .player__section::after {
     content: url("../img/decor/player-leaf-2.png");
     position: absolute;
     bottom: 21%;
     left: 15%;
-    z-index: 100; }
+    z-index: 10; }
   .player__section .player__title {
     padding-top: rem(80px); }
 
@@ -25,13 +25,13 @@
     position: absolute;
     top: 27%;
     right: 7%;
-    z-index: 100; }
+    z-index: 10; }
   .player__section--container::after {
     content: url("../img/decor/video-leaf-2.png");
     position: absolute;
     bottom: 10%;
     left: 7%;
-    z-index: 100; }
+    z-index: 10; }
 
 .player {
   display: block;

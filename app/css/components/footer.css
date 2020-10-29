@@ -1,21 +1,21 @@
 /*
 Error: Undefined mixin 'phones'.
-        on line 15 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\footer.scss, in `phones'
-        from line 15 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\footer.scss
+        on line 17 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\footer.scss, in `phones'
+        from line 17 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\footer.scss
 
-10: .footer__container {
-11:   display: flex;
-12:   justify-content: space-between;
-13:   align-items: center;
-14: 
-15:   @include phones {
-16:     flex-direction: column;
-17:   }
-18: }
+12:     margin-bottom: 2%;
+13:     padding: rem(23px) 0;
+14:     background: #fff;
+15:   }
+16: 
+17:   @include phones {
+18:     flex-direction: column;
+19:   }
+20: }
 
 Backtrace:
-C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\footer.scss:15:in `phones'
-C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\footer.scss:15
+C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\footer.scss:17:in `phones'
+C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\footer.scss:17
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -63,4 +63,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'phones'.\A         on line 15 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\footer.scss, in `phones'\A         from line 15 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\src\css\components\footer.scss\A \A 10: .footer__container {\A 11:   display: flex;\A 12:   justify-content: space-between;\A 13:   align-items: center;\A 14: \A 15:   @include phones {\A 16:     flex-direction: column;\A 17:   }\A 18: }"; }
+  content: "Error: Undefined mixin 'phones'.\A         on line 17 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\footer.scss, in `phones'\A         from line 17 of C:\Users\molei\Desktop\LoftSchool\webInitial\mainProject\app\css\components\footer.scss\A \A 12:     margin-bottom: 2%;\A 13:     padding: rem(23px) 0;\A 14:     background: #fff;\A 15:   }\A 16: \A 17:   @include phones {\A 18:     flex-direction: column;\A 19:   }\A 20: }"; }
