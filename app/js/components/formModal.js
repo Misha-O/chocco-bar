@@ -9,10 +9,11 @@ const formValidation = (form, inputFieldsArray) => {
   return inputError.length == 0;
 };
 
-$(".form").submit(function (e) {
+$(".form").on("submit", (e) => {
   e.preventDefault();
-
+  debugger;
   const form = $(e.currentTarget);
+  console.log(form);
   const name = form.find("[name='name']");
   const phone = form.find("[name='phone']");
   const comment = form.find("[name='comment']");
