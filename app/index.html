@@ -9,7 +9,7 @@
     />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="css/main.css" />
-    
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">  <!-- to prevent favicon.ico console error -->
     <title>Chocco Bar</title>
   </head>
   <body>
@@ -60,11 +60,38 @@
                     ></use></svg></span
                 ><span class="phone-number__text">8 800 903 9090</span></a
               >
-              <a href="" class="hamburger">
-                <span class="hamburger__plank"></span>
-                <span class="hamburger__plank"></span>
-                <span class="hamburger__plank"></span>
-              </a>
+              <div class="fullscreen__menu--vertical">      
+                <nav class="menu menu--vertical">
+                  <div class="hamburger">
+                    <div class="hamburger__plank one"></div>
+                    <div class="hamburger__plank two"></div>
+                    <div class="hamburger__plank three"></div>
+                  </div>
+                  <ul class="menu__list">
+                    <li class="menu__item">
+                      <a href="#" class="menu__link" data-scroll-to="hero">О нас</a>
+                    </li>
+                    <li class="menu__item">
+                      <a href="#" class="menu__link" data-scroll-to="benefits">Батончики</a>
+                    </li>
+                    <li class="menu__item">
+                      <a href="#" class="menu__link" data-scroll-to="team">Команда</a>
+                    </li>
+                    <li class="menu__item">
+                      <a href="#" class="menu__link" data-scroll-to="accordion">Меню</a>
+                    </li>
+                    <li class="menu__item">
+                      <a href="#" class="menu__link" data-scroll-to="reviews">Отзывы</a>
+                    </li>
+                    <li class="menu__item">
+                      <a href="#" class="menu__link" data-scroll-to="player">Как мы работаем</a>
+                    </li>
+                    <li class="menu__item">
+                      <a href="#" class="menu__link" data-scroll-to="map">Контакты</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
             </header>
             <div class="hero__title--section">
               <h1 class="hero__main--title">
@@ -81,7 +108,7 @@
                 <li class="features__item feature">
                   <div class="feature__icon">
                     <svg class="feature__icon--svg">
-                      <use xlink:href="./css/components/symbol/sprite.svg#doubleLeaf"></use>
+                      <use xlink:href="./css/components/symbol/sprite.svg#leaf"></use>
                     </svg>
                   </div>
                   <div class="feature__text">100% натуральный продукт</div>
@@ -911,7 +938,7 @@
             </div>
           </div>
         </section>
-        <section class="section __section" data-sidemenu-theme="black" data-section-id="player">
+        <section class="section player__section" data-sidemenu-theme="black" data-section-id="player">
           <div class="container player__container">
             <h1 class="section__title player__title">как мы работаем</h1>
             <div class="player__section--container">
@@ -938,8 +965,8 @@
                     </button>
                   </div>
                 </div>
+              </div>
             </div>
-          </div>
         </section>
         <section class="section order__section section--font--color--green" data-sidemenu-theme="white" data-section-id="order">
           <div class="container order__container">
@@ -952,7 +979,7 @@
                 <div class="form__row">
                   <label class="form__block">
                     <div class="form__title">Имя</div>
-                    <input class="form__input" type="text" name="name" />
+                    <input class="form__input" type="text" name="name"/>
                   </label>
                   <label class="form__block">
                     <div class="form__title">Телефон</div>
@@ -992,7 +1019,7 @@
                       class="form__input form__input--textarea"
                       cols="30"
                       rows="10"
-                      name="comment"
+                      name="comment" 
                     ></textarea>
                   </label>
                 </div>
@@ -1012,11 +1039,6 @@
                   <label class="radio radio--checkbox">
                     <input class="radio__elem" type="checkbox" />
                     <div class="radio__visible">
-                      <!-- <svg class="radio__visible--svg">
-                        <use
-                          xlink:href="./css/components/symbol/sprite.svg.svg#checkmark"
-                        ></use>
-                      </svg> -->
                     </div>
                     <div class="radio__title">Не перезванивать</div>
                   </label>
@@ -1106,7 +1128,7 @@
         </div>
       </div>
     </div>
-    <div class="fullscreen__menu">      
+    <!-- <div class="fullscreen__menu">      
       <a href="#" class="fullscreen__menu--close">x</a>      
       <nav class="menu menu--vertical">
         <ul class="menu__list">
@@ -1133,7 +1155,7 @@
           </li>
         </ul>
       </nav>
-    </div>
+    </div> -->
     <nav class="fixed--menu">
       <ul class="fixed--menu__list">
         <li class="fixed--menu__item">
@@ -1174,7 +1196,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.19/jquery.touchSwipe.min.js" integrity="sha512-YYiD5ZhmJ0GCdJvx6Xe6HzHqHvMpJEPomXwPbsgcpMFPW+mQEeVBU6l9n+2Y+naq+CLbujk91vHyN18q6/RSYw==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.4.4/mobile-detect.min.js" integrity="sha512-hSVyGuXBHmZy+A+P21DRUAuc7UTfcqc0geieb/H1ZmqiJAoDTfzFYIOBAMTcFUWU/PwLPEoREYG/77ckPB6oSw==" crossorigin="anonymous"></script>
     <script src="js/components/player.js"></script>
-    <script src="js/components/formValidation.js"></script>
     <script src="js/components/map.js"></script>
     <script src="js/components/accoHoriz.js"></script>
     <script src="js/components/accoVert.js"></script>

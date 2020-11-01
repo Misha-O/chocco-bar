@@ -5,8 +5,8 @@ const sideMenuItem = sideMenu.find(".fixed--menu__item");
 
 // https://hgoebl.github.io/mobile-detect.js/
 
-const mobileDetect = new MobileDetect(window.navigator.userAgent);
-const isMobile = mobileDetect.mobile();
+// const mobileDetect = new MobileDetect(window.navigator.userAgent);
+// const isMobile = mobileDetect.mobile();
 
 let inScroll = false;
 
@@ -128,16 +128,16 @@ $("[data-scroll-to]").on("click", (e) => {
 
 // https://github.com/mattbryson/TouchSwipe-Jquery-Plugin
 
-if (isMobile) {
-  $("body").swipe({
-    swipe: function (event, direction) {
-      const scroller = viewportScroller();
-      let scrollDirection = "";
+// if (isMobile) {
+//   $("body").swipe({
+//     swipe: function (event, direction) {
+//       const scroller = viewportScroller();
+//       let scrollDirection = "";
 
-      if (direction === "up") scrollDirection = "next";
-      if (direction === "down") scrollDirection = "prev";
+//       if (direction === "up") scrollDirection = "next";
+//       if (direction === "down") scrollDirection = "prev";
 
-      scroller[scrollDirection]();
-    },
-  });
-}
+//       scroller[scrollDirection]();
+//     },
+//   });
+// }

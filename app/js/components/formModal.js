@@ -11,9 +11,7 @@ const formValidation = (form, inputFieldsArray) => {
 
 $(".form").on("submit", (e) => {
   e.preventDefault();
-  debugger;
   const form = $(e.currentTarget);
-  console.log(form);
   const name = form.find("[name='name']");
   const phone = form.find("[name='phone']");
   const comment = form.find("[name='comment']");
@@ -44,7 +42,7 @@ $(".form").on("submit", (e) => {
       content.text(message);
       modal.addClass("error-modal");
     });
-    request.always((data) => {
+    request.always(() => {
       $.fancybox.open({
         src: "#modal",
         type: "inline",
@@ -53,7 +51,7 @@ $(".form").on("submit", (e) => {
   }
 });
 
-$(".js-submit-btn").click(function (e) {
+$(".js-submit-btn").on("click", function (e) {
   e.preventDefault();
   $.fancybox.close();
 });

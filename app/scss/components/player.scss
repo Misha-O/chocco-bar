@@ -1,18 +1,12 @@
 .player__section {
   background: #f8faf9;
+  position: relative;
 
   &::before {
     content: url("../img/decor/blackberry.png");
     position: absolute;
-    bottom: 20%;
+    bottom: -15%;
     right: 0%;
-    z-index: 10;
-  }
-  &::after {
-    content: url("../img/decor/player-leaf-2.png");
-    position: absolute;
-    bottom: 21%;
-    left: 15%;
     z-index: 10;
   }
 
@@ -29,16 +23,23 @@
   &::before {
     content: url("../img/decor/video-leaf-1.png");
     position: absolute;
-    top: 27%;
-    right: 7%;
+    top: 0%;
+    right: 0%;
     z-index: 10;
   }
   &::after {
     content: url("../img/decor/video-leaf-2.png");
     position: absolute;
-    bottom: 10%;
+    bottom: 1%;
     left: 7%;
     z-index: 10;
+
+    @include tablets {
+      display: none;
+    }
+    @include phones {
+      display: none;
+    }
   }
 }
 .player {

@@ -2,7 +2,7 @@ let player;
 const playerContainer = $(".player");
 
 let eventsInit = () => {
-  $(".player__start").click((e) => {
+  $(".player__start").on("click", (e) => {
     e.preventDefault();
 
     if (playerContainer.hasClass("paused")) {
@@ -12,7 +12,7 @@ let eventsInit = () => {
     }
   });
 
-  $(".player__mute").click((e) => {
+  $(".player__mute").on("click", (e) => {
     e.preventDefault();
 
     if (playerContainer.hasClass("muted")) {
@@ -24,7 +24,7 @@ let eventsInit = () => {
     }
   });
 
-  $(".player__volume--playback").click((e) => {
+  $(".player__volume--playback").on("click", (e) => {
     volumeBar = $(e.currentTarget);
     const clickedVolPosition = e.originalEvent.layerX;
     newVolPositionPercent = (clickedVolPosition / volumeBar.width()) * 100;
@@ -38,7 +38,7 @@ let eventsInit = () => {
     player.setVolume(newVolPosition);
   });
 
-  $(".player__playback").click((e) => {
+  $(".player__playback").on("click", (e) => {
     const sliderBar = $(e.currentTarget);
     const clickedPosition = e.originalEvent.layerX;
     newBtnPositionPercent = (clickedPosition / sliderBar.width()) * 100;
@@ -52,7 +52,7 @@ let eventsInit = () => {
     player.seekTo(newPlaybackPositionSec);
   });
 
-  $(".player__splash").click((e) => {
+  $(".player__splash").on("click", (e) => {
     player.playVideo();
   });
 };
@@ -114,12 +114,11 @@ const onPlayerStateChange = (event) => {
       break;
   }
 };
-
 function onYouTubeIframeAPIReady() {
   player = new YT.Player("youtb--player", {
     height: "410",
     width: "705",
-    videoId: "wAEzpwvrveg",
+    videoId: "IUN664s7N-c",
     events: {
       onReady: onPlayerReady,
       onStateChange: onPlayerStateChange,
@@ -165,5 +164,3 @@ eventsInit();
 // todo 20. to sync slider with actual sec, start vrb with newPlaybackPosition = total time / 100 and * by newBtnPosition on slider
 // todo 21.still inside that slider call player.seekTo with received vrb
 // todo 22. const onPlayerStateChange and use switch and
-// todo 22.
-// todo 22.
