@@ -50,7 +50,7 @@ gulp.task("icons", () => {
         },
       })
     )
-    .pipe(gulp.dest("app/css/components"));
+    .pipe(gulp.dest("app/img/sprites"));
 });
 
 gulp.task("watch", function () {
